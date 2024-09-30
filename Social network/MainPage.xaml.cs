@@ -1,9 +1,11 @@
-﻿namespace Social_network
+﻿using Social_network.Services;
+using Social_network.Views;
+
+namespace Social_network
 {
     public partial class MainPage : ContentPage
     {
         int count = 0;
-
         public MainPage()
         {
             InitializeComponent();
@@ -20,6 +22,7 @@
 
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
+
     }
 
 }

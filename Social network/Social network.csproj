@@ -57,6 +57,23 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\ant_man.png" />
+	  <None Remove="Resources\Images\black_panther.png" />
+	  <None Remove="Resources\Images\black_widow.png" />
+	  <None Remove="Resources\Images\falcon.png" />
+	  <None Remove="Resources\Images\hulk.png" />
+	  <None Remove="Resources\Images\loki.png" />
+	  <None Remove="Resources\Images\rocket.png" />
+	  <None Remove="Resources\Images\root.png" />
+	  <None Remove="Resources\Images\spider_man.png" />
+	  <None Remove="Resources\Images\thanos.png" />
+	  <None Remove="Resources\Images\tony_stark.png" />
+	  <None Remove="Resources\Images\vision.png" />
+	  <None Remove="Resources\Images\wanda.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="IdentityModel.OidcClient.IdentityTokenValidator" Version="6.0.0" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
@@ -66,6 +83,9 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="LoginPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\ChatPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\HomePage.xaml">

@@ -4,7 +4,7 @@ namespace Social_network
 {
     public partial class App : Application
     {
-        public static UserInfo userInfo;
+        public static LoginInfo userInfo;
         public App()
         {
             InitializeComponent();

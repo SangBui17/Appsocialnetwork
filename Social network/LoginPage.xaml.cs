@@ -7,7 +7,10 @@ namespace Social_network;
 public partial class LoginPage : ContentPage
 {
 	readonly LoginRepository loginrepository = new LoginService();
-	public LoginPage()
+    /*HomePage homePage = new HomePage();
+    LoginPage loginPage = new LoginPage();
+    ChatPage chatPage = new ChatPage();*/
+    public LoginPage()
 	{
 		InitializeComponent();
 	}
@@ -22,10 +25,11 @@ public partial class LoginPage : ContentPage
 			return;
 		}
 
-		UserInfo userInfo = await loginrepository.Login(username, password);
+		LoginInfo userInfo = await loginrepository.Login(username, password);
 		if (userInfo != null)
 		{
-			await Navigation.PushAsync(new HomePage());
+			await Navigation.PushAsync(new ChatPage());
+
 		}
 
 		else
@@ -33,4 +37,12 @@ public partial class LoginPage : ContentPage
 			await DisplayAlert("warning", "Usernam or Password is inCorrect", "ok");
 		}
 	}
+
+    /*private async void Logout_Clicked(object sender, EventArgs e)
+    {
+        var logoutResult = loginrepository.Logout();
+        SecureStorage.Default.RemoveAll();
+        chatPage.IsVisible = false;
+        loginPage.IsVisible = true;
+    }*/
 }
