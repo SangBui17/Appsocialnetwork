@@ -12,7 +12,7 @@ namespace Social_network.Repository
     interface MessageRepository
     {
         Task<List<MessageResponse>> getAllMessageByMeAndUserId(PageInfo pageInfo, long userTarget);
-        string creatMessage(MessageRequest messageRequest, string userTarget);
+        Task<string> creatMessage(MessageRequest messageRequest, string userTarget);
         string deleteMessage(long messageID);
         Task<List<MessageResponse>> getAlluserMessageByme(PageInfo pageInfo);
     }

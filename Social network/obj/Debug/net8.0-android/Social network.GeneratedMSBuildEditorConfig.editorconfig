@@ -63,3 +63,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Social_network.Views.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
+
+[C:/Users/TIENTHU/source/repos/Social network/Social network/Views/ListChatPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Social_network.Views.ListChatPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ListChatPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ListChatPage.xaml

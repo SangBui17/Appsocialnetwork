@@ -11,6 +11,13 @@ build_property.RootNamespace = Social_network
 build_property.ProjectDir = C:\Users\TIENTHU\source\repos\Social network\Social network\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotExportsEnabled = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
+build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
+build_property.CsWinRTMergeReferencedActivationFactories = 
+build_property.CsWinRTAotWarningLevel = 
 
 [C:/Users/TIENTHU/source/repos/Social network/Social network/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -59,3 +66,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Social_network.Views.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
+
+[C:/Users/TIENTHU/source/repos/Social network/Social network/Views/ListChatPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Social_network.Views.ListChatPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ListChatPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ListChatPage.xaml

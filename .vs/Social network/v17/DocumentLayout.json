@@ -145,7 +145,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -154,42 +154,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cab27b98-a314-48d2-9746-efe8ba39ccb0}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainActivity.cs",
-              "DocumentMoniker": "C:\\Users\\TIENTHU\\source\\repos\\Social network\\Social network\\Platforms\\Android\\MainActivity.cs",
-              "RelativeDocumentMoniker": "Social network\\Platforms\\Android\\MainActivity.cs",
-              "ToolTip": "C:\\Users\\TIENTHU\\source\\repos\\Social network\\Social network\\Platforms\\Android\\MainActivity.cs",
-              "RelativeToolTip": "Social network\\Platforms\\Android\\MainActivity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T07:36:55.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginService.cs",
-              "DocumentMoniker": "C:\\Users\\TIENTHU\\source\\repos\\Social network\\Social network\\ServicesImp\\LoginService.cs",
-              "RelativeDocumentMoniker": "Social network\\ServicesImp\\LoginService.cs",
-              "ToolTip": "C:\\Users\\TIENTHU\\source\\repos\\Social network\\Social network\\ServicesImp\\LoginService.cs",
-              "RelativeToolTip": "Social network\\ServicesImp\\LoginService.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAwwCMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T09:54:42.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "app.manifest",
-              "DocumentMoniker": "C:\\Users\\TIENTHU\\source\\repos\\Social network\\Social network\\Platforms\\Windows\\app.manifest",
-              "RelativeDocumentMoniker": "Social network\\Platforms\\Windows\\app.manifest",
-              "ToolTip": "C:\\Users\\TIENTHU\\source\\repos\\Social network\\Social network\\Platforms\\Windows\\app.manifest",
-              "RelativeToolTip": "Social network\\Platforms\\Windows\\app.manifest",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
-              "WhenOpened": "2024-11-01T07:35:37.977Z"
             },
             {
               "$type": "Document",
@@ -225,8 +189,7 @@
               "RelativeToolTip": "Social network\\Response\\UserInfoResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAiwAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T16:26:49.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T16:26:49.032Z"
             },
             {
               "$type": "Document",
@@ -238,8 +201,7 @@
               "RelativeToolTip": "Social network\\Views\\ChatPage.xaml",
               "ViewState": "AgIAACcAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-15T15:39:40.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T15:39:40.103Z"
             },
             {
               "$type": "Document",
@@ -249,10 +211,46 @@
               "RelativeDocumentMoniker": "Social network\\Views\\ChatPage.xaml.cs",
               "ToolTip": "C:\\Users\\TIENTHU\\source\\repos\\Social network\\Social network\\Views\\ChatPage.xaml.cs",
               "RelativeToolTip": "Social network\\Views\\ChatPage.xaml.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwC0AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T02:02:02.543Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Users\\TIENTHU\\source\\repos\\Social network\\Social network\\Platforms\\Windows\\app.manifest",
+              "RelativeDocumentMoniker": "Social network\\Platforms\\Windows\\app.manifest",
+              "ToolTip": "C:\\Users\\TIENTHU\\source\\repos\\Social network\\Social network\\Platforms\\Windows\\app.manifest",
+              "RelativeToolTip": "Social network\\Platforms\\Windows\\app.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2024-11-01T07:35:37.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\TIENTHU\\source\\repos\\Social network\\Social network\\ServicesImp\\LoginService.cs",
+              "RelativeDocumentMoniker": "Social network\\ServicesImp\\LoginService.cs",
+              "ToolTip": "C:\\Users\\TIENTHU\\source\\repos\\Social network\\Social network\\ServicesImp\\LoginService.cs",
+              "RelativeToolTip": "Social network\\ServicesImp\\LoginService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAwwCMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T09:54:42.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\TIENTHU\\source\\repos\\Social network\\Social network\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "Social network\\Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\TIENTHU\\source\\repos\\Social network\\Social network\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "Social network\\Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T07:36:55.147Z"
             },
             {
               "$type": "Document",
@@ -276,8 +274,7 @@
               "RelativeToolTip": "Social network\\request\\MessageRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T07:52:46.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T07:52:46.925Z"
             },
             {
               "$type": "Document",
@@ -289,8 +286,7 @@
               "RelativeToolTip": "Social network\\ViewModels\\MessageViewModels.cs",
               "ViewState": "AgIAAGQAAAAAAAAAAAAMwGEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T15:05:36.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T15:05:36.438Z"
             },
             {
               "$type": "Document",
@@ -302,8 +298,7 @@
               "RelativeToolTip": "Social network\\ServicesImp\\MessageService.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAYwDIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T06:51:59.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T06:51:59.375Z"
             },
             {
               "$type": "Document",
@@ -315,8 +310,7 @@
               "RelativeToolTip": "Social network\\Platforms\\Android\\Resources\\xml\\network_security_config.xml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-11-01T07:35:08.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T07:35:08.146Z"
             },
             {
               "$type": "Document",
@@ -328,8 +322,7 @@
               "RelativeToolTip": "Social network\\ViewModels\\ChatPageViewModel.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAlwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T06:25:19.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T06:25:19.664Z"
             },
             {
               "$type": "Document",
@@ -341,8 +334,7 @@
               "RelativeToolTip": "Social network\\LoginPage.xaml.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAYwC0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T16:00:30.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T16:00:30.871Z"
             },
             {
               "$type": "Document",
@@ -354,8 +346,7 @@
               "RelativeToolTip": "Social network\\Converters\\UserIdConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T15:57:46.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T15:57:46.293Z"
             },
             {
               "$type": "Document",
@@ -367,8 +358,7 @@
               "RelativeToolTip": "Social network\\Views\\ListChatPage.xaml.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAQwCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T16:04:53.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T16:04:53.615Z"
             },
             {
               "$type": "Document",
@@ -380,8 +370,7 @@
               "RelativeToolTip": "Social network\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-27T14:22:33.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T14:22:33.307Z"
             },
             {
               "$type": "Document",
@@ -393,8 +382,7 @@
               "RelativeToolTip": "Social network\\ServicesImp\\UserInfoService.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T09:01:21.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T09:01:21.463Z"
             },
             {
               "$type": "Document",
@@ -406,8 +394,7 @@
               "RelativeToolTip": "Social network\\LoginPage.xaml",
               "ViewState": "AgIAACoAAAAAAAAAAIBpwDwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-15T16:00:35.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T16:00:35.412Z"
             },
             {
               "$type": "Document",
@@ -419,8 +406,7 @@
               "RelativeToolTip": "Social network\\Repository\\LoginRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T05:56:57.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T05:56:57.217Z"
             },
             {
               "$type": "Document",
@@ -432,8 +418,7 @@
               "RelativeToolTip": "Social network\\Repository\\UserInfoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T16:37:08.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T16:37:08.605Z"
             },
             {
               "$type": "Document",
@@ -445,8 +430,7 @@
               "RelativeToolTip": "Social network\\ServicesImp\\UserManagerService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAcwDAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T16:33:38.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T16:33:38.258Z"
             },
             {
               "$type": "Document",
@@ -458,8 +442,7 @@
               "RelativeToolTip": "Social network\\Repository\\UserManagerRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAACBjwA0AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T01:14:02.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T01:14:02.183Z"
             },
             {
               "$type": "Document",
@@ -471,8 +454,7 @@
               "RelativeToolTip": "Social network\\Models\\Report.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAIwBcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T13:08:00.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T13:08:00.416Z"
             },
             {
               "$type": "Document",
@@ -484,8 +466,7 @@
               "RelativeToolTip": "Social network\\Views\\HomePage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T06:14:12.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T06:14:12.547Z"
             },
             {
               "$type": "Document",
@@ -497,8 +478,7 @@
               "RelativeToolTip": "Social network\\Views\\HomePage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-15T15:37:04.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T15:37:04.881Z"
             },
             {
               "$type": "Document",
@@ -510,8 +490,7 @@
               "RelativeToolTip": "Social network\\AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-15T15:54:02.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T15:54:02.377Z"
             },
             {
               "$type": "Document",
@@ -534,8 +513,7 @@
               "RelativeToolTip": "Social network\\Models\\Comment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBZwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T06:38:38.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T06:38:38.979Z"
             },
             {
               "$type": "Document",
@@ -547,8 +525,7 @@
               "RelativeToolTip": "Social network\\Social network.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-15T10:35:13.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T10:35:13.574Z"
             },
             {
               "$type": "Document",
@@ -560,8 +537,7 @@
               "RelativeToolTip": "Social network\\Models\\Address.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T06:55:55.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T06:55:55.779Z"
             },
             {
               "$type": "Document",
@@ -573,8 +549,7 @@
               "RelativeToolTip": "Social network\\Models\\PageInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T00:39:51.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T00:39:51.493Z"
             },
             {
               "$type": "Document",
@@ -586,8 +561,7 @@
               "RelativeToolTip": "Social network\\Helpers\\IconFontHelper.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwAIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T01:22:54.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T01:22:54.723Z"
             }
           ]
         }

@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Social_network.Response
 {
@@ -13,7 +12,7 @@ namespace Social_network.Response
     {
         public string username { get; set; }
 
-        public bool gender {  get; set; }
+        public bool gender { get; set; }
 
         [JsonProperty("last_name")]
 
@@ -23,7 +22,7 @@ namespace Social_network.Response
 
         public string firstName { get; set; }
 
-        public string fullName => $"{lastName} {firstName}";
+        public string FullName => $"{lastName} {firstName}";
 
         [JsonProperty("dob")]
 

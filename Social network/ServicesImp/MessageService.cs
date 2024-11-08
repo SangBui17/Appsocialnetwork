@@ -16,9 +16,43 @@ namespace Social_network.ServicesImp
 {
     internal class MessageService : MessageRepository
     {
-        public string creatMessage(MessageRequest messageRequest, string userTarget)
+        public async Task<string> creatMessage(MessageRequest messageRequest, string userTarget)
         {
-            throw new NotImplementedException();
+            var client = new HttpClient();
+            var serializerOptions = new JsonSerializerOptions
+            {
+                PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+                WriteIndented = true
+            };
+            string url = $"http://10.0.2.2:2711/message/chat/{userTarget}";
+
+            try
+            {
+                // Serialize PageInfo using System.Text.Json
+                string json = System.Text.Json.JsonSerializer.Serialize(messageRequest, serializerOptions);
+                StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
+                var token = await SecureStorage.Default.GetAsync("access_token");
+                HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, url)
+                {
+                    Content = content
+                };
+                request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
+                CancellationToken cancellationToken = new CancellationToken();
+
+                HttpResponseMessage responseMessage = await client.SendAsync(request, CancellationToken.None);
+                if (responseMessage.IsSuccessStatusCode)
+                {
+                    string responseContent = await responseMessage.Content.ReadAsStringAsync();
+                    Debug.WriteLine($"Response: {responseContent}");
+                    return responseContent;
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"\tError: {ex.Message}");
+            }
+
+            return null; // Hoặc có thể trả về một danh sách rỗng nếu cần
         }
 
         public string deleteMessage(long messageID)
@@ -51,15 +85,30 @@ namespace Social_network.ServicesImp
                 // Serialize PageInfo using System.Text.Json
                 string json = System.Text.Json.JsonSerializer.Serialize(pageInfo, serializerOptions);
                 StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
+                var token = await SecureStorage.Default.GetAsync("access_token");
+                if (token == null)
+                {
+                    Debug.WriteLine("Access token is missing.");
+                    return null;
+                }
+                HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, url)
+                {
+                    Content = content
+                };
+                request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
+                CancellationToken cancellationToken = new CancellationToken();
 
-                HttpResponseMessage responseMessage = await client.PostAsync(url, content);
+                HttpResponseMessage responseMessage = await client.SendAsync(request, CancellationToken.None);
                 if (responseMessage.IsSuccessStatusCode)
                 {
                     string responseContent = await responseMessage.Content.ReadAsStringAsync();
+                    Debug.WriteLine($"Response: {responseContent}");
                     // Deserialize using Newtonsoft.Json
-                    List<MessageResponse> messageResponses = JsonConvert.DeserializeObject<List<MessageResponse>>(responseContent);
-                    Debug.WriteLine("\tLấy thành công.");
-                    return messageResponses; // Trả về danh sách messageResponses
+                    //MessageResposeWrapper messageResposeWrapper = JsonConvert.DeserializeObject(responseContent);
+                    MessageResposeWrapper resposeWrapper = JsonConvert.DeserializeObject<MessageResposeWrapper>(responseContent);
+                    List<MessageResponse> messageResponses = resposeWrapper.content;
+                    Debug.WriteLine("\tLấy thành công tin nhắn.");
+                    return messageResponses;
                 }
             }
             catch (Exception ex)

@@ -11,6 +11,7 @@ namespace Social_network.Response
 {
     internal class MessageResponse : BaseEntity
     {
+
         [JsonProperty("user_Source")]
         public UserInfoResponse userSource {  get; set; }
 
