@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿                              <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFrameworks>net8.0-android;net8.0-ios;net8.0-maccatalyst</TargetFrameworks>
@@ -57,19 +57,44 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\add_icon.png" />
+	  <None Remove="Resources\Images\add_icon1.png" />
+	  <None Remove="Resources\Images\add_icon2.png" />
 	  <None Remove="Resources\Images\ant_man.png" />
 	  <None Remove="Resources\Images\black_panther.png" />
 	  <None Remove="Resources\Images\black_widow.png" />
+	  <None Remove="Resources\Images\comment_icon.png" />
 	  <None Remove="Resources\Images\falcon.png" />
+	  <None Remove="Resources\Images\group_icon.png" />
+	  <None Remove="Resources\Images\home_icon.png" />
+	  <None Remove="Resources\Images\home_icon1.png" />
+	  <None Remove="Resources\Images\home_icon2.png" />
 	  <None Remove="Resources\Images\hulk.png" />
+	  <None Remove="Resources\Images\like_icon.png" />
+	  <None Remove="Resources\Images\like_icon1.png" />
 	  <None Remove="Resources\Images\loki.png" />
+	  <None Remove="Resources\Images\message_icon.png" />
+	  <None Remove="Resources\Images\message_icon1.png" />
+	  <None Remove="Resources\Images\message_icon2.png" />
+	  <None Remove="Resources\Images\more_options_icon.png" />
+	  <None Remove="Resources\Images\notification_icon.png" />
+	  <None Remove="Resources\Images\notification_icon1.png" />
+	  <None Remove="Resources\Images\post_image1.jpg" />
+	  <None Remove="Resources\Images\post_image2.jpg" />
+	  <None Remove="Resources\Images\profile_icon.png" />
+	  <None Remove="Resources\Images\profile_icon1.png" />
 	  <None Remove="Resources\Images\rocket.png" />
 	  <None Remove="Resources\Images\root.png" />
+	  <None Remove="Resources\Images\search_icon.png" />
+	  <None Remove="Resources\Images\search_icon1.png" />
+	  <None Remove="Resources\Images\share_icon.png" />
 	  <None Remove="Resources\Images\spider_man.png" />
 	  <None Remove="Resources\Images\thanos.png" />
 	  <None Remove="Resources\Images\tony_stark.png" />
+	  <None Remove="Resources\Images\user_profile.jpg" />
 	  <None Remove="Resources\Images\vision.png" />
 	  <None Remove="Resources\Images\wanda.png" />
+	  <None Remove="Resources\Images\watch_icon.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -78,7 +103,13 @@
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 		<PackageReference Include="Microsoft.Toolkit.Mvvm" Version="7.1.2" />
-		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="System.Runtime" Version="4.3.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Views\AddPost.xaml.cs">
+	    <DependentUpon>AddPost.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -88,7 +119,16 @@
 	  <MauiXaml Update="Views\ChatPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\CommentPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\AddPost.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\HomePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\NotificationPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

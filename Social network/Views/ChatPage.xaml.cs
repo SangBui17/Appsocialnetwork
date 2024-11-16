@@ -1,4 +1,4 @@
-
+Ôªø
 using Social_network.Models;
 using Social_network.ViewModels;
 
@@ -34,13 +34,13 @@ public partial class ChatPage : ContentPage
 
     private void OnSettingsClicked(object sender, EventArgs e)
     {
-        // X? l˝ s? ki?n c‡i ??t
-        DisplayAlert("C‡i ??t", "B?n ?„ nh?n v‡o c‡i ??t!", "OK");
+        // X? l√Ω s? ki?n c√†i ??t
+        DisplayAlert("C√†i ??t", "B?n ?√£ nh?n v√†o c√†i ??t!", "OK");
     }
 
     private void OnLogoutClicked(object sender, EventArgs e)
     {
-        // X? l˝ s? ki?n ??ng xu?t
-        DisplayAlert("??ng xu?t", "B?n ?„ ??ng xu?t!", "OK");
+        // X? l√Ω s? ki?n ??ng xu?t
+        DisplayAlert("??ng xu?t", "B?n ?√£ ??ng xu?t!", "OK");
     }
 }

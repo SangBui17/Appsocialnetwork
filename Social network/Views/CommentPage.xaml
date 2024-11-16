@@ -1,0 +1,35 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Social_network.Views.CommentPage"
+             xmlns:ViewModels="clr-namespace:Social_network.ViewModels"
+             Title="Comment Page">
+
+    <VerticalStackLayout Padding="10">
+
+        <!-- Danh sách bình luận -->
+        <CollectionView x:Name="CommentList" ItemsSource="{Binding CommentList}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Orientation="Horizontal" Margin="0,10,0,0">
+                        <!-- Avatar hoặc icon người bình luận -->
+                        <Image Source="{Binding userAuthorResponse.avatar.linkImage}" WidthRequest="40" HeightRequest="40" />
+                        <!-- Nội dung bình luận -->
+                        <StackLayout Padding="10,0,0,0">
+                            <Label Text="{Binding userAuthorResponse.fullName}" FontAttributes="Bold" />
+                            <Label Text="{Binding content}" TextColor="Gray" />
+                            <!--<Label Text="{Binding Time}" FontSize="12" TextColor="DarkGray" />-->
+                            <!--<Image Source="{Binding imageResponse.linkImage}" Aspect="AspectFit" IsVisible="{Binding HasImage}" />-->
+                        </StackLayout>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <!-- Phần nhập bình luận -->
+        <HorizontalStackLayout Padding="0,20,0,0">
+            <Entry x:Name="CommentEntry" Placeholder="Bình luận dưới tên..." Text="{Binding Comment}" HorizontalOptions="FillAndExpand" />
+            <Button Text="Gửi" Command="{Binding SendCommentCommand}" />
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>

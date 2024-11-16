@@ -3,10 +3,10 @@ using Social_network.ViewModels;
 
 namespace Social_network.Views;
 
-public partial class HomePage : ContentPage
+public partial class AddPost : ContentPage
 {
 	private PostViewModel _viewmodel;
-	public HomePage()
+	public AddPost()
 	{
 		InitializeComponent();
 		_viewmodel = new PostViewModel();
