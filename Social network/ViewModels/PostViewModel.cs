@@ -6,6 +6,7 @@ using Social_network.ServicesImp;
 using Social_network.Views;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,7 @@ namespace Social_network.ViewModels
 
 		private List<PostResponse> _postList;
 		public ICommand CommentTappedCommand { get; private set; }
+		public ICommand AddPostTappedCommand { get; private set; }
 		public ICommand SendLikeCommand { get; private set; }
 		// Change the type to List<MessageResponse>
 		public List<PostResponse> PostList
@@ -41,10 +43,18 @@ namespace Social_network.ViewModels
 			CommentTappedCommand = new Command<int>(OnCommentTapped);
 			SendLikeCommand = new Command<int>(SendLikeTapped);
 		}
+		public PageInfo PageInfo { get; }
 
 		private async void SendLikeTapped(int postId)
 		{
+			// Gọi API like
 			var responseContent = await _serviceLike.like(postId);
+
+			if (responseContent != null) // Nếu API trả về phản hồi hợp lệ
+			{
+				// Gọi lại API để tải danh sách bài đăng mới
+				await GetPostAsync(PageInfo);
+			}
 		}
 
 		private async void OnCommentTapped(int postId)

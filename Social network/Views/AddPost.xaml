@@ -1,41 +1,54 @@
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="YourNamespace.AddPost"
+             x:Class="Social_network.Views.AddPost"
+             xmlns:local="clr-namespace:Social_network.ViewModels"
              Title="Create Post">
+    <ScrollView>
+        <VerticalStackLayout Padding="10">
 
-    <VerticalStackLayout Padding="10">
+            <!-- Top area with input field -->
+            <Label Text="Bạn đang nghĩ gì?" FontAttributes="Bold" Margin="0,0,0,5" />
+            <Editor x:Name="PostInput" Placeholder="Hôm nay" Text="{Binding PostInput}" HeightRequest="80" />
 
-        <!-- Top area with input field -->
-        <Label Text="What's Your Mind?" FontAttributes="Bold" Margin="0,0,0,5" />
-        <Editor x:Name="PostInput" Placeholder="Your post" HeightRequest="80" />
+            <!-- Image Gallery section -->
+            <CollectionView x:Name="ImageList"
+                ItemsSource="{Binding ImageList}"
+                SelectionMode="Multiple"
+                SelectionChanged="OnImagesSelected">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="3" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame WidthRequest="100" HeightRequest="120" BorderColor="Gray" CornerRadius="8" Margin="5">
+                            <Image Source="{Binding linkImage}" Aspect="AspectFill" WidthRequest="90" HeightRequest="110" />
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
 
-        <!-- Image Gallery section -->
-        <ScrollView Orientation="Horizontal" Margin="0,10,0,20">
-            <HorizontalStackLayout Spacing="10">
-                <!-- Image placeholders for images in a horizontal list -->
-                <Frame WidthRequest="80" HeightRequest="120" BorderColor="Gray" CornerRadius="8">
-                    <Image Source="image1.png" Aspect="AspectFill" />
-                </Frame>
-                <Frame WidthRequest="80" HeightRequest="120" BorderColor="Gray" CornerRadius="8">
-                    <Image Source="image2.png" Aspect="AspectFill" />
-                </Frame>
-                <!-- Repeat for more images -->
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="End" Margin="0,20,0,0">
+                <Picker x:Name="ShareOptionsPicker"
+        Title="Chọn quyền riêng tư"
+        HorizontalOptions="FillAndExpand"
+        WidthRequest="200"
+        SelectedIndexChanged="OnPrivacyOptionChanged">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Công khai</x:String>
+                            <x:String>Bạn bè</x:String>
+                            <x:String>Chỉ mình tôi</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
             </HorizontalStackLayout>
-        </ScrollView>
 
-        <!-- Bottom section with sharing options -->
-        <Grid RowDefinitions="Auto" ColumnDefinitions="*,*,*">
-            <Button Text="Public" BackgroundColor="LightGray" Grid.Column="0" />
-            <Button Text="Live" BackgroundColor="LightGray" Grid.Column="1" />
-            <Button Text="Share" BackgroundColor="LightBlue" Grid.Column="2" />
-        </Grid>
+            <!-- Action buttons (like adding images, tagging, etc.) -->
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="20" Margin="0,20,0,0">
+                <Button Text="Đăng" Command="{Binding SendPostCommand}" WidthRequest="80" />
+            </HorizontalStackLayout>
 
-        <!-- Action buttons (like adding images, tagging, etc.) -->
-        <HorizontalStackLayout HorizontalOptions="Center" Spacing="20" Margin="0,20,0,0">
-            <Button Text="Add Image" WidthRequest="80" />
-            <Button Text="Tag" WidthRequest="80" />
-            <Button Text="Location" WidthRequest="80" />
-        </HorizontalStackLayout>
-
-    </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

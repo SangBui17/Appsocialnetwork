@@ -24,6 +24,10 @@ public partial class HomePage : ContentPage
 		await _viewmodel.GetPostAsync(pageInfo);
 	}
 	// Event handler for notification icon tap
+	private async void AddPostTapped(object sender, EventArgs e)
+	{
+		await Navigation.PushAsync(new AddPost());
+	}
 	private async void OnNotificationTapped(object sender, EventArgs e)
 	{
 		await Navigation.PushAsync(new NotificationPage());

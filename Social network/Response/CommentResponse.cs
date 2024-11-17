@@ -10,7 +10,7 @@ namespace Social_network.Response
 {
     internal class CommentResponse : BaseEntity
 	{
-		public String content { get; set; }
+		public string content { get; set; }
 
 		[JsonProperty("author")]
 

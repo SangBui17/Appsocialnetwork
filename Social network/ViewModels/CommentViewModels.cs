@@ -60,14 +60,16 @@ namespace Social_network.ViewModels
 			var commentRequest = new CommentRequest { content = Comment };
 
 			var responseContent = await _commentService.addComment(commentRequest, postId);
+			OnSendCommentTapped();
 			if (responseContent != null)
 			{
 				var commentResponse = JsonConvert.DeserializeObject<CommentResponse>(responseContent);
-				// Thêm tin nhắn mới vào MessageList và thông báo thay đổi
-				CommentList.Add(commentResponse);
-				OnPropertyChanged(nameof(CommentList)); // Thông báo cập nhật MessageList
-				Comment = string.Empty;
 			}
+		}
+		private async void OnSendCommentTapped()
+		{
+			// Quay lại trang trước (HomePage trong trường hợp này)
+			await Application.Current.MainPage.Navigation.PopAsync();
 		}
 
 		public async Task GetCommentAsync(PageInfo pageInfo,long id)
