@@ -3,6 +3,9 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "Social network.dll" comes first in this list. */
 		"Social network.dll",
+		"Apache.NMS.dll",
+		"Apache.NMS.ActiveMQ.dll",
+		"Extend.dll",
 		"GoogleGson.dll",
 		"IdentityModel.dll",
 		"IdentityModel.OidcClient.dll",
@@ -28,7 +31,12 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.Graphics.dll",
 		"Microsoft.Toolkit.Mvvm.dll",
 		"Newtonsoft.Json.dll",
+		"ICSharpCode.SharpZipLib.dll",
+		"Stomp.Net.dll",
+		"StompNet.dll",
+		"SuperSocket.ClientEngine.dll",
 		"System.IdentityModel.Tokens.Jwt.dll",
+		"WebSocket4Net.dll",
 		"Xamarin.Android.Glide.dll",
 		"Xamarin.Android.Glide.Annotations.dll",
 		"Xamarin.Android.Glide.DiskLruCache.dll",

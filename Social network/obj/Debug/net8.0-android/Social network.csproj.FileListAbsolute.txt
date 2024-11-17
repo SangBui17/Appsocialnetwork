@@ -1063,3 +1063,13 @@ C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-and
 C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-android\android\assets\Microsoft.IdentityModel.Logging.dll
 C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-android\android\assets\Microsoft.IdentityModel.Tokens.dll
 C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-android\android\assets\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-android\android\assets\Apache.NMS.dll
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-android\android\assets\Apache.NMS.ActiveMQ.dll
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-android\android\assets\Extend.dll
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-android\android\assets\ICSharpCode.SharpZipLib.dll
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-android\android\assets\ICSharpCode.SharpZipLib.pdb
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-android\android\assets\Stomp.Net.dll
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-android\android\assets\StompNet.dll
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-android\android\assets\StompNet.pdb
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-android\android\assets\SuperSocket.ClientEngine.dll
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-android\android\assets\WebSocket4Net.dll

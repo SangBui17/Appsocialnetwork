@@ -66,6 +66,10 @@
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "dependencies": {
+            "Apache.NMS.ActiveMQ": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "IdentityModel.OidcClient.IdentityTokenValidator": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -95,6 +99,22 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Stomp.Net": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "StompNet": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "WebSocket4Net": {
+              "target": "Package",
+              "version": "[0.15.2, )"
             }
           },
           "imports": [
@@ -121,6 +141,10 @@
         "net8.0-ios18.0": {
           "targetAlias": "net8.0-ios",
           "dependencies": {
+            "Apache.NMS.ActiveMQ": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "IdentityModel.OidcClient.IdentityTokenValidator": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -150,6 +174,22 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Stomp.Net": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "StompNet": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "WebSocket4Net": {
+              "target": "Package",
+              "version": "[0.15.2, )"
             }
           },
           "imports": [
@@ -176,6 +216,10 @@
         "net8.0-maccatalyst18.0": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {
+            "Apache.NMS.ActiveMQ": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "IdentityModel.OidcClient.IdentityTokenValidator": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -205,6 +249,22 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Stomp.Net": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "StompNet": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "WebSocket4Net": {
+              "target": "Package",
+              "version": "[0.15.2, )"
             }
           },
           "imports": [
@@ -232,6 +292,10 @@
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "dependencies": {
+            "Apache.NMS.ActiveMQ": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "IdentityModel.OidcClient.IdentityTokenValidator": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -255,6 +319,22 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Stomp.Net": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "StompNet": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "WebSocket4Net": {
+              "target": "Package",
+              "version": "[0.15.2, )"
             }
           },
           "imports": [

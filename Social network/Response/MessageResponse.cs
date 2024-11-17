@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Social_network.Response
 {
-    internal class MessageResponse : BaseEntity
+    class MessageResponse : BaseEntity
     {
 
         [JsonProperty("user_Source")]

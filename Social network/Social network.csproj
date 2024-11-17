@@ -19,6 +19,7 @@
 		<SingleProject>true</SingleProject>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
+		<NullabilityInfoContextSupport>true</NullabilityInfoContextSupport>
 
 		<!-- Display name -->
 		<ApplicationTitle>Social network</ApplicationTitle>
@@ -57,43 +58,48 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\ant_man.png" />
-	  <None Remove="Resources\Images\black_panther.png" />
-	  <None Remove="Resources\Images\black_widow.png" />
-	  <None Remove="Resources\Images\falcon.png" />
-	  <None Remove="Resources\Images\hulk.png" />
-	  <None Remove="Resources\Images\loki.png" />
-	  <None Remove="Resources\Images\rocket.png" />
-	  <None Remove="Resources\Images\root.png" />
-	  <None Remove="Resources\Images\spider_man.png" />
-	  <None Remove="Resources\Images\thanos.png" />
-	  <None Remove="Resources\Images\tony_stark.png" />
-	  <None Remove="Resources\Images\vision.png" />
-	  <None Remove="Resources\Images\wanda.png" />
+		<None Remove="Resources\Images\ant_man.png" />
+		<None Remove="Resources\Images\black_panther.png" />
+		<None Remove="Resources\Images\black_widow.png" />
+		<None Remove="Resources\Images\falcon.png" />
+		<None Remove="Resources\Images\hulk.png" />
+		<None Remove="Resources\Images\loki.png" />
+		<None Remove="Resources\Images\rocket.png" />
+		<None Remove="Resources\Images\root.png" />
+		<None Remove="Resources\Images\spider_man.png" />
+		<None Remove="Resources\Images\thanos.png" />
+		<None Remove="Resources\Images\tony_stark.png" />
+		<None Remove="Resources\Images\vision.png" />
+		<None Remove="Resources\Images\wanda.png" />
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Apache.NMS.ActiveMQ" Version="2.1.0" />
 		<PackageReference Include="IdentityModel.OidcClient.IdentityTokenValidator" Version="6.0.0" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 		<PackageReference Include="Microsoft.Toolkit.Mvvm" Version="7.1.2" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="Stomp.Net" Version="2.4.0" />
+		<PackageReference Include="StompNet" Version="1.0.1" />
+		<PackageReference Include="System.Threading.Tasks" Version="4.3.0" />
+		<PackageReference Include="WebSocket4Net" Version="0.15.2" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="LoginPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Views\ChatPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Views\HomePage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Views\ListChatPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
+		<MauiXaml Update="LoginPage.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Views\ChatPage.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Views\HomePage.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Views\ListChatPage.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
 	</ItemGroup>
 
 </Project>

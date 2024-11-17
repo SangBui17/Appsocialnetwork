@@ -1,4 +1,6 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.IdentityModel.Tokens;
+using Newtonsoft.Json;
+using Social_network.Connfig;
 using Social_network.Models;
 using Social_network.request;
 using Social_network.Response;
@@ -7,6 +9,8 @@ using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.Net.WebSockets;
+using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
@@ -17,6 +21,7 @@ namespace Social_network.ViewModels
         private readonly MessageService _messageService;
         private readonly UserInfoService _userInfoService;
 
+        private readonly WebSocketConfig _websocketConfig;
         private ObservableCollection<MessageResponse> _messageList;
         private UserInfoResponse _userInfo;
 
@@ -32,6 +37,8 @@ namespace Social_network.ViewModels
         }
 
         public long UserTaget { get; set; }
+
+        public string ChatId;
 
         public ObservableCollection<MessageResponse> MessageList
         {
@@ -63,10 +70,92 @@ namespace Social_network.ViewModels
             _userInfoService = new UserInfoService();
             SendMessageCommand = new Command(async () => await SendMessageAsync());
             _messageList = new ObservableCollection<MessageResponse>();
+            _websocketConfig = new WebSocketConfig("ws://10.0.2.2:8080/ws");
+            _websocketConfig.Connected += OnConnected;
+            _websocketConfig.Disconnected += OnDisconnected;
+        }
+        public async Task Connect()
+        {
+            try
+            {
+                var token = await SecureStorage.Default.GetAsync("access_token");
+                // Kiểm tra token có hợp lệ hay không
+                if (string.IsNullOrEmpty(token))
+                {
+                    Console.WriteLine("Error: Authentication token is missing. Cannot connect to WebSocket.");
+                    return;
+                }
+                await _websocketConfig.ConnectAsync();
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"Error connect message: {ex.Message}");
+            }
+        }
+        public async Task OnMessageReceived(string message)
+        {
+            try
+            {
+                // Split header và body
+                var parts = message.Split(new[] { "\n\n" }, 2, StringSplitOptions.None);
+                if (parts.Length < 2) return;
+
+                var body = parts[1].TrimEnd('\u0000');
+                var parsedMessage = JsonConvert.DeserializeObject<MessageResponse>(message);
+                if (parsedMessage != null && !string.IsNullOrEmpty(parsedMessage.content))
+                {
+                    MessageList.Clear();
+                    foreach (var msg in message)
+                    {
+                        MessageList.Add(parsedMessage);
+                    }
+                    Console.WriteLine($"Tin nhắn nhận được từ server: {parsedMessage.content}");
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"Error parsing message: {ex.Message}");
+            }
+        }
+
+        private void OnConnected()
+        {
+            Console.WriteLine("WebSocket connected.");
+        }
+
+        private void OnDisconnected()
+        {
+            Console.WriteLine("WebSocket disconnected.");
+        }
+
+        public async Task ConnectAsync(string chatId)
+        {
+            if (_websocketConfig.clientWebSocket == null || _websocketConfig.clientWebSocket.State != WebSocketState.Open)
+            {
+                await Connect();
+            }
+            Console.WriteLine("dc ko:" + chatId);
+            if (!string.IsNullOrEmpty(chatId) || _websocketConfig.clientWebSocket.State == WebSocketState.Open)
+            {
+                await _websocketConfig.ConnectAsync();
+                // Subscribe tới topic "/user/{chatId}/private"
+                string subscribeMessage = $"SUBSCRIBE\n" +
+                                $"id:sub-{Guid.NewGuid()}\n" +
+                                $"destination:/user/{chatId}/private\n" +
+                                $"ack:auto\n\n\u0000"; // Dòng trống để kết thúc phần header trước ký tự NULL
+                var bytes = Encoding.UTF8.GetBytes(subscribeMessage);
+                await _websocketConfig.clientWebSocket.SendAsync(
+                    new ArraySegment<byte>(bytes), WebSocketMessageType.Text, true, CancellationToken.None
+                );
+                Console.WriteLine($"Subscribed to /user/{chatId}/private");
+            }
+            else
+            {
+                Console.WriteLine("WebSocket không được kết nối.");
+            }
         }
 
         public ICommand SendMessageCommand { get; }
-
         private async Task SendMessageAsync()
         {
             if (string.IsNullOrWhiteSpace(Message)) return;
@@ -77,12 +166,36 @@ namespace Social_network.ViewModels
             if (responseContent != null)
             {
                 var messageResponse = JsonConvert.DeserializeObject<MessageResponse>(responseContent);
+                var messageResponseString = JsonConvert.SerializeObject(messageResponse);
                 // Thêm tin nhắn mới vào MessageList và thông báo thay đổi
                 MessageList.Add(messageResponse);
                 OnPropertyChanged(nameof(MessageList)); // Thông báo cập nhật MessageList
                 Message = string.Empty;
+
+                // Định dạng tin nhắn theo giao thức STOMP
+                var messageToSend = $@"
+                SEND
+                destination:/user/{ChatId}/private
+                content-type:application/json
+
+                {JsonConvert.SerializeObject(messageResponse)}
+                \u0000";
+
+                Console.WriteLine($"Send to /user/{ChatId}/private");
+
+                await _websocketConfig.SendMessageAsync(messageToSend);
+                await OnMessageReceived(messageResponseString);
+                // Log gửi qua WebSocket
+                Console.WriteLine($"WebSocket gửi tới /user/{ChatId}/private với nội dung: {messageToSend}");
             }
         }
+
+
+        public async Task DisconnectAsync()
+        {
+            await _websocketConfig.DisconnectAsync();
+        }
+
 
         public async Task GetMessagesAsync(PageInfo pageInfo)
         {
@@ -109,6 +222,9 @@ namespace Social_network.ViewModels
                 }
                 UserTaget = userTaget;
                 Debug.WriteLine($"id người nhận: {UserTaget}");
+                ChatId = MessageList?.FirstOrDefault()?.chatId ?? string.Empty;
+                ConnectAsync(ChatId);
+
             }
             else
             {

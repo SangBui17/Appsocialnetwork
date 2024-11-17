@@ -1,4 +1,5 @@
-﻿using Social_network.Models;
+﻿
+using Social_network.Models;
 using Social_network.Response;
 using Social_network.ViewModels;
 using System.Collections.ObjectModel;
@@ -9,12 +10,14 @@ public partial class ListChatPage : ContentPage
 {
     private MessageViewModels _viewmodel;
     private long _userTarget;
+    private string _chatId;
     public ListChatPage(long userTarget)
 	{
         InitializeComponent();
         _viewmodel = new MessageViewModels();
         _userTarget = userTarget;
         BindingContext = _viewmodel;
+
         // Đăng ký sự kiện thay đổi cho MessageList
         ((MessageViewModels)BindingContext).PropertyChanged += (sender, e) =>
         {
@@ -43,7 +46,7 @@ public partial class ListChatPage : ContentPage
             index = 0,
             size = 25
         };
-
+        //await _viewmodel.ConnectAsync(_chatId);
         // Gọi phương thức để lấy tin nhắn theo userTarget
         await _viewmodel.GetMessageforuserTaget(pageInfo, _userTarget);
         await _viewmodel.GetUserInfo();

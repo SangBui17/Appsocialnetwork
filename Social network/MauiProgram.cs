@@ -20,6 +20,7 @@ namespace Social_network
 
 #if DEBUG
     		builder.Logging.AddDebug();
+            // Đăng ký WebSocketService
 
 #endif
 

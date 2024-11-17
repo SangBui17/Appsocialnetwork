@@ -31,6 +31,7 @@ public partial class ChatPage : ContentPage
             size = 5
         };
         await _viewmodel.GetMessagesAsync(pageInfo);
+        await _viewmodel.Connect();
     }
     private void OnSelectionChanged(object sender, SelectionChangedEventArgs e)
     {
