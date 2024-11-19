@@ -1,0 +1,458 @@
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\build-signature\signature
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\mauiimage.inputs
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\mauifont.inputs
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\mauisplash.inputs
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\sp\MauiInfo.plist
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\sp\MauiSplash.storyboard
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@2x.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@3x.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\mauisplash.stamp
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\profile_icon.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\black_panther.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\search_icon.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\ant_man.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\share_icon.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\black_widow.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\rocket.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\loki.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\root.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\falcon.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\spider_man.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\hulk.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\thanos.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\message_icon.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\tony_stark.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\notification_icon.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\vision.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\comment_icon.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\wanda.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\add_icon.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@3x.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@2x.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@3x.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@2x.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@3x.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@2x.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\like_icon.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\dotnet_bot@3x.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\dotnet_bot@2x.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\dotnet_bot.png
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\mauiimage.stamp
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\mauiimage.outputs
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\f\MauiInfo.plist
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\mauifont.stamp
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\f\OpenSans-Regular.ttf
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\f\OpenSans-Semibold.ttf
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\actool\_PartialAppManifest.items
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\actool\_BundleResourceWithLogicalName.items
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\actool\_ProcessedImageAssetsPath.items
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\ibtool\_ProcessedInterfaceDefinitionsPath.items
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\coremlc\_PartialAppManifest.items
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\_ProcessedBundleResourcesPath.items
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\_ProcessedContentPath.items
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\Social network.csproj.AssemblyReference.cache
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\Social network.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\Social network.AssemblyInfoInputs.cache
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\Social network.AssemblyInfo.cs
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-ios\ios-arm64\Social network.csproj.CoreCompileInputs.cache
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\build-signature\signature
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\mauiimage.inputs
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\mauifont.inputs
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\mauisplash.inputs
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\sp\MauiInfo.plist
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\sp\MauiSplash.storyboard
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@2x.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@3x.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\mauisplash.stamp
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\messenger_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\home_icon1.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\add_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\message_icon1.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\message_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\like_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\home_icon2.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\add2_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\private_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\phone.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\isfriend_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\hulk.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\accept_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\rocket.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\reject_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\loki.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\like_tus_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\like_icon1.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\image_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\black_widow.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\tym_tus_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\tony_stark.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\share_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\message_icon2.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\home_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\wow_tus_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\more_options_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\edit.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\wanda.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\vision.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\spider_man.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\spider_cover.jpg
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\send.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\movie_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\black_panther.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@3x.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@2x.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@3x.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@2x.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@3x.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@2x.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\search_icon1.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\notification_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\add_icon1.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\user_profile.jpg
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\notification_icon1.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\comment_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\option_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\ant_man.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\pen_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\friend_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\profile_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\back_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\profile_icon1.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\camera.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\public_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\group_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\thanos.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\stream_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\setting_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\root.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\add_icon2.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\watch_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\search_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\groot.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\send_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\falcon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\addfriend_icon.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\dotnet_bot@3x.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\dotnet_bot@2x.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\dotnet_bot.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\mauiimage.stamp
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\mauiimage.outputs
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\f\MauiInfo.plist
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\mauifont.stamp
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\f\OpenSans-Regular.ttf
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\resizetizer\f\OpenSans-Semibold.ttf
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\actool\_PartialAppManifest.items
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\actool\_BundleResourceWithLogicalName.items
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\actool\_ProcessedImageAssetsPath.items
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\ibtool\_BundleResourceWithLogicalName.items
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\ibtool\_ProcessedInterfaceDefinitionsPath.items
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\coremlc\_PartialAppManifest.items
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\coremlc\_BundleResourceWithLogicalName.items
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\coremlc\_ProcessedCoreMLModelsPath.items
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\_ProcessedBundleResourcesPath.items
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\_ProcessedContentPath.items
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\Social network.csproj.AssemblyReference.cache
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\Social network.GeneratedMSBuildEditorConfig.editorconfig
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\Social network.AssemblyInfoInputs.cache
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\Social network.AssemblyInfo.cs
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\Social network.csproj.CoreCompileInputs.cache
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\Social network.sourcelink.json
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\Social network.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\refint\Social network.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\Social network.pdb
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Social network.runtimeconfig.json
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Social network.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Social network.pdb
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Apache.NMS.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Apache.NMS.ActiveMQ.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Extend.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\IdentityModel.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\IdentityModel.OidcClient.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\IdentityModel.OidcClient.IdentityTokenValidator.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Extensions.Configuration.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Extensions.DependencyInjection.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Extensions.Logging.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Extensions.Logging.Abstractions.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Extensions.Logging.Debug.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Extensions.Options.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Extensions.Primitives.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.IdentityModel.Abstractions.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.IdentityModel.Logging.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.IdentityModel.Tokens.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Maui.Controls.Compatibility.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Maui.Controls.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Maui.Controls.Xaml.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Maui.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Maui.Essentials.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Maui.Graphics.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Toolkit.Mvvm.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Newtonsoft.Json.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\ICSharpCode.SharpZipLib.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Stomp.Net.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\StompNet.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\SuperSocket.ClientEngine.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.IdentityModel.Tokens.Jwt.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\WebSocket4Net.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\ar\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\ca\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\cs\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\da\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\de\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\el\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\es\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\fi\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\fr\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\he\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\hi\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\hr\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\hu\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\id\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\it\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\ja\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\ko\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\ms\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\nb\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\nl\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\pl\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\pt-BR\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\pt\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\ro\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\ru\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\sk\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\sv\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\th\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\tr\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\uk\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\vi\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\zh-HK\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\zh-Hans\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\zh-Hant\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.CSharp.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.VisualBasic.Core.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.VisualBasic.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Win32.Primitives.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Win32.Registry.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.AppContext.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Buffers.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Collections.Concurrent.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Collections.Immutable.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Collections.NonGeneric.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Collections.Specialized.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Collections.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.ComponentModel.Annotations.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.ComponentModel.DataAnnotations.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.ComponentModel.EventBasedAsync.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.ComponentModel.Primitives.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.ComponentModel.TypeConverter.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.ComponentModel.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Configuration.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Console.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Core.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Data.Common.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Data.DataSetExtensions.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Data.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Diagnostics.Contracts.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Diagnostics.Debug.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Diagnostics.DiagnosticSource.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Diagnostics.FileVersionInfo.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Diagnostics.Process.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Diagnostics.StackTrace.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Diagnostics.TextWriterTraceListener.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Diagnostics.Tools.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Diagnostics.TraceSource.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Diagnostics.Tracing.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Drawing.Primitives.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Drawing.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Dynamic.Runtime.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Formats.Asn1.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Formats.Tar.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Globalization.Calendars.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Globalization.Extensions.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Globalization.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.IO.Compression.Brotli.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.IO.Compression.FileSystem.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.IO.Compression.ZipFile.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.IO.Compression.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.IO.FileSystem.AccessControl.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.IO.FileSystem.DriveInfo.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.IO.FileSystem.Primitives.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.IO.FileSystem.Watcher.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.IO.FileSystem.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.IO.IsolatedStorage.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.IO.MemoryMappedFiles.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.IO.Pipes.AccessControl.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.IO.Pipes.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.IO.UnmanagedMemoryStream.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.IO.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Linq.Expressions.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Linq.Parallel.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Linq.Queryable.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Linq.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Memory.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Net.Http.Json.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Net.Http.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Net.HttpListener.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Net.Mail.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Net.NameResolution.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Net.NetworkInformation.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Net.Ping.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Net.Primitives.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Net.Quic.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Net.Requests.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Net.Security.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Net.ServicePoint.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Net.Sockets.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Net.WebClient.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Net.WebHeaderCollection.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Net.WebProxy.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Net.WebSockets.Client.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Net.WebSockets.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Net.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Numerics.Vectors.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Numerics.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.ObjectModel.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Private.DataContractSerialization.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Private.Uri.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Private.Xml.Linq.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Private.Xml.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Reflection.DispatchProxy.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Reflection.Emit.ILGeneration.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Reflection.Emit.Lightweight.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Reflection.Emit.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Reflection.Extensions.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Reflection.Metadata.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Reflection.Primitives.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Reflection.TypeExtensions.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Reflection.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Resources.Reader.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Resources.ResourceManager.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Resources.Writer.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Runtime.CompilerServices.Unsafe.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Runtime.CompilerServices.VisualC.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Runtime.Extensions.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Runtime.Handles.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Runtime.InteropServices.JavaScript.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Runtime.InteropServices.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Runtime.Intrinsics.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Runtime.Loader.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Runtime.Numerics.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Runtime.Serialization.Formatters.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Runtime.Serialization.Json.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Runtime.Serialization.Primitives.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Runtime.Serialization.Xml.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Runtime.Serialization.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Runtime.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Security.AccessControl.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Security.Claims.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Security.Cryptography.Algorithms.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Security.Cryptography.Cng.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Security.Cryptography.Csp.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Security.Cryptography.Encoding.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Security.Cryptography.OpenSsl.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Security.Cryptography.Primitives.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Security.Cryptography.X509Certificates.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Security.Cryptography.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Security.Principal.Windows.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Security.Principal.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Security.SecureString.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Security.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.ServiceModel.Web.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.ServiceProcess.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Text.Encoding.CodePages.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Text.Encoding.Extensions.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Text.Encoding.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Text.Encodings.Web.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Text.Json.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Text.RegularExpressions.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Threading.Channels.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Threading.Overlapped.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Threading.Tasks.Dataflow.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Threading.Tasks.Extensions.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Threading.Tasks.Parallel.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Threading.Tasks.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Threading.Thread.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Threading.ThreadPool.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Threading.Timer.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Threading.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Transactions.Local.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Transactions.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.ValueTuple.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Web.HttpUtility.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Web.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Windows.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Xml.Linq.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Xml.ReaderWriter.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Xml.Serialization.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Xml.XDocument.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Xml.XPath.XDocument.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Xml.XPath.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Xml.XmlDocument.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Xml.XmlSerializer.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Xml.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\WindowsBase.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\mscorlib.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\netstandard.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.iOS.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\System.Private.CoreLib.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\icudt.dat
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\icudt_CJK.dat
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\icudt_EFIGS.dat
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\icudt_hybrid.dat
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\icudt_no_CJK.dat
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libSystem.Globalization.Native.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libSystem.Globalization.Native.dylib
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libSystem.IO.Compression.Native.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libSystem.IO.Compression.Native.dylib
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libSystem.Native.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libSystem.Native.dylib
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libSystem.Net.Security.Native.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libSystem.Net.Security.Native.dylib
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libSystem.Security.Cryptography.Native.Apple.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libSystem.Security.Cryptography.Native.Apple.dylib
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libicudata.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libicui18n.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libicuuc.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libmono-component-debugger-static.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libmono-component-debugger-stub-static.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libmono-component-diagnostics_tracing-static.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libmono-component-diagnostics_tracing-stub-static.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libmono-component-hot_reload-static.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libmono-component-hot_reload-stub-static.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libmono-component-marshal-ilgen-static.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libmono-component-marshal-ilgen-stub-static.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libmonosgen-2.0.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libmonosgen-2.0.dylib
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\Microsoft.iOS.registrar.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libextension-dotnet.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libxamarin-dotnet-debug.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libxamarin-dotnet-debug.dylib
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libxamarin-dotnet-nativeaot-debug.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libxamarin-dotnet-nativeaot.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libxamarin-dotnet.a
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-ios\ios-arm64\libxamarin-dotnet.dylib
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\XamlC.stamp
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\Social n.85E1283F.Up2Date
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\Social network.genruntimeconfig.cache
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-ios\ios-arm64\ref\Social network.dll

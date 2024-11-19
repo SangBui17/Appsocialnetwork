@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Social_network.LoginPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="{Binding Path=Isvisible}"
+    Shell.NavBarIsVisible="False">
+
+    <Grid BackgroundColor="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="220" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+
+        <StackLayout>
+            <Frame
+                Margin="0,100,0,0"
+                Padding="0"
+                BackgroundColor="SkyBlue"
+                CornerRadius="30"
+                HeightRequest="60"
+                HorizontalOptions="Center"
+                WidthRequest="60">
+                <Image
+                    Margin="0"
+                    Aspect="Fill"
+                    Source="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png" />
+            </Frame>
+        </StackLayout>
+
+
+        <Grid
+            Grid.Row="1"
+            Margin="20,20,20,0"
+            RowSpacing="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="40" />
+                <RowDefinition Height="40" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Label
+                Grid.Row="1"
+                Margin="0"
+                Padding="0"
+                FontAttributes="Bold"
+                FontSize="Title"
+                HorizontalOptions="Center"
+                Text="Welcome to Social Network!" />
+            <Label
+                Grid.Row="2"
+                FontSize="Subtitle"
+                HorizontalOptions="Center"
+                Text="Sign in to continue" />
+
+            <StackLayout
+                Grid.Row="3"
+                HorizontalOptions="FillAndExpand"
+                Orientation="Vertical">
+                <Frame
+                    Padding="0"
+                    BackgroundColor="Transparent"
+                    BorderColor="#3B32DC"
+                    CornerRadius="30"
+                    HorizontalOptions="FillAndExpand">
+                    <StackLayout Orientation="Horizontal">
+                        <Frame
+                            Margin="5"
+                            Padding="0"
+                            BackgroundColor="SkyBlue"
+                            CornerRadius="30"
+                            HeightRequest="40"
+                            WidthRequest="40">
+                            <Image
+                                Margin="0"
+                                Aspect="AspectFill"
+                                Source="https://e7.pngegg.com/pngimages/84/165/png-clipart-united-states-avatar-organization-information-user-avatar-service-computer-wallpaper-thumbnail.png" />
+                        </Frame>
+                        <Entry
+                            x:Name="txtUserName"
+                            Margin="0,0,20,0"
+                            FontAttributes="Bold"
+                            HorizontalOptions="FillAndExpand"
+                            Placeholder="Username"
+                            Text="truong"
+                            TextColor="Black"
+                            VerticalOptions="Center" />
+                    </StackLayout>
+                </Frame>
+
+                <Frame
+                    Margin="0,15,0,0"
+                    Padding="0"
+                    BackgroundColor="Transparent"
+                    BorderColor="#3B32DC"
+                    CornerRadius="30"
+                    HorizontalOptions="FillAndExpand">
+                    <StackLayout Orientation="Horizontal">
+                        <Frame
+                            Margin="5"
+                            Padding="0"
+                            BackgroundColor="SkyBlue"
+                            CornerRadius="30"
+                            HeightRequest="40"
+                            WidthRequest="40">
+                            <Image
+                                Margin="0"
+                                Aspect="AspectFill"
+                                Source="https://e7.pngegg.com/pngimages/669/574/png-clipart-computer-icons-password-others-miscellaneous-random-password-generator-thumbnail.png" />
+                        </Frame>
+                        <Entry
+                            x:Name="txtPassword"
+                            Margin="0,0,20,0"
+                            FontAttributes="Bold"
+                            HorizontalOptions="FillAndExpand"
+                            IsPassword="True"
+                            Placeholder="Password"
+                            Text="truong123"
+                            TextColor="Black"
+                            VerticalOptions="Center" />
+                        <CheckBox />
+                    </StackLayout>
+                </Frame>
+
+                <StackLayout
+                    Margin="0,10,0,0"
+                    Padding="0"
+                    Orientation="Horizontal">
+                    <CheckBox IsChecked="False" />
+                    <Label
+                        FontSize="Small"
+                        HorizontalTextAlignment="Center"
+                        Text="Remember Me"
+                        TextColor="DarkGray"
+                        VerticalTextAlignment="Center" />
+                    <Label
+                        FontAttributes="Bold"
+                        HorizontalOptions="CenterAndExpand"
+                        HorizontalTextAlignment="Center"
+                        Text="Forgor Password ?"
+                        TextColor="Red"
+                        TextDecorations="Underline"
+                        VerticalTextAlignment="Center" />
+                </StackLayout>
+
+                <Button
+                    x:Name="btnLogin"
+                    Margin="0,15,0,0"
+                    BackgroundColor="#0E47D0"
+                    Clicked="Login_Clicked"
+                    Command="{Binding LoginCommand}"
+                    CornerRadius="30"
+                    FontAttributes="Bold"
+                    Text="SIGN IN"
+                    TextColor="White"
+                    WidthRequest="200" />
+
+                <StackLayout
+                    Margin="0,60,0,0"
+                    Padding="0"
+                    HorizontalOptions="CenterAndExpand"
+                    Orientation="Horizontal">
+                    <Label
+                        FontSize="Small"
+                        Text="New user?"
+                        TextColor="DarkGray" />
+                    <Label
+                        FontAttributes="Bold"
+                        FontSize="Small"
+                        Text=" Sign Up"
+                        TextColor="#0E47D0"
+                        TextDecorations="Underline" />
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+
+    </Grid>
+</ContentPage>

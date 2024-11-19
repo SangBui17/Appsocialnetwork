@@ -1,0 +1,272 @@
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Social network.csproj.AssemblyReference.cache
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+C:\Users\TIENTHU\source\repos\Social network\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Social network.GeneratedMSBuildEditorConfig.editorconfig
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Social network.csproj.AssemblyReference.cache
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Social network.GeneratedMSBuildEditorConfig.editorconfig
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauisplash.stamp
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.stamp
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon1.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\root.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rocket.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification_icon1.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\movie_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\more_options_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\falcon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\comment_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add2_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vision.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\user_profile.scale-100.jpg
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tym_tus_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tony_stark.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\reject_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\public_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\messenger_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\message_icon2.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_icon2.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_icon1.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\friend_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\black_panther.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon1.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\wow_tus_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\private_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\phone.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\isfriend_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\groot.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\black_widow.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\spider_man.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\spider_cover.scale-100.jpg
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\profile_icon1.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\profile_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\like_tus_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\like_icon1.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\group_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\camera.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ant_man.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon2.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\thanos.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stream_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\message_icon1.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\message_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\like_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\accept_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\watch_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\wanda.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\share_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pen_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\option_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loki.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\hulk.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\addfriend_icon.scale-100.png
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.stamp
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.outputs
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Social network.AssemblyInfoInputs.cache
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Social network.AssemblyInfo.cs
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Social network.csproj.CoreCompileInputs.cache
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Social network.sourcelink.json
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Social network.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\refint\Social network.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Social network.pdb
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Social network.exe
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Social network.deps.json
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Social network.runtimeconfig.json
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Social network.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Social network.pdb
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Apache.NMS.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Apache.NMS.ActiveMQ.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Extend.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\IdentityModel.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\IdentityModel.OidcClient.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\IdentityModel.OidcClient.IdentityTokenValidator.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.DependencyInjection.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Logging.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Logging.Abstractions.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Logging.Debug.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Options.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Primitives.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.Interop.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.IdentityModel.Abstractions.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.IdentityModel.Logging.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.IdentityModel.Tokens.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.IO.RecyclableMemoryStream.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Controls.Compatibility.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Controls.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Controls.Xaml.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Essentials.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Graphics.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Toolkit.Mvvm.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.InteractiveExperiences.Projection.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.WinUI.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AppLifecycle.Projection.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AppNotifications.Builder.Projection.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AppNotifications.Projection.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Management.Deployment.Projection.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.PushNotifications.Projection.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Security.AccessControl.Projection.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Power.Projection.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Projection.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.Projection.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ICSharpCode.SharpZipLib.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Stomp.Net.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\StompNet.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SuperSocket.ClientEngine.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.IdentityModel.Tokens.Jwt.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\WebSocket4Net.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ar\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ca\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\cs\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\da\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\de\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\el\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\es\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\fi\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\fr\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\he\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\hi\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\hr\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\hu\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\id\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\it\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ja\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ko\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ms\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\nb\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\nl\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\pl\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\pt-BR\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\pt\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ro\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ru\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\sk\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\sv\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\th\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\tr\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\uk\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\vi\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\zh-HK\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\zh-Hans\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\zh-Hant\Microsoft.Maui.Controls.resources.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.SDK.NET.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\WinRT.Runtime.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlC.stamp
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Social n.85E1283F.Up2Date
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Social network.genruntimeconfig.cache
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ref\Social network.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\priconfig.xml
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\priconfig.xml.intermediate
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\unfiltered.layout.resfiles
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\unfiltered.layout.resfiles.intermediate
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\filtered.layout.resfiles
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\filtered.layout.resfiles.intermediate
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\excluded.layout.resfiles
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\excluded.layout.resfiles.intermediate
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.resfiles
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.resfiles.intermediate
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\pri.resfiles
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\pri.resfiles.intermediate
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt

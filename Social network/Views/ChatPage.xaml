@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Social_network.Views.ChatPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:helper="clr-namespace:Social_network.Helpers"
+    BackgroundColor="{DynamicResource PrimaryColor}"
+    Shell.NavBarIsVisible="False">
+    <ContentPage.IconImageSource>
+        <FontImageSource
+            FontFamily="IconFontTypes"
+            Glyph="{x:Static helper:IconFontHelper.Message}"
+            Size="20" />
+    </ContentPage.IconImageSource>
+
+    <Grid Margin="10" RowSpacing="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition Height="45" />
+            <RowDefinition Height="90" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Grid>
+            <StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image
+                        HeightRequest="42"
+                        Source="{Binding UserInfo.avatar_image.linkImage, FallbackValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png', TargetNullValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png'}"
+                        VerticalOptions="Center"
+                        WidthRequest="42" />
+                    <Label
+                        Margin="10,0,0,0"
+                        FontAttributes="Bold"
+                        FontSize="25"
+                        Text="Chats"
+                        VerticalOptions="Center" />
+                </StackLayout>
+
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnChatTapped" />
+                </StackLayout.GestureRecognizers>
+            </StackLayout>
+
+            <StackLayout
+                HorizontalOptions="End"
+                Orientation="Horizontal"
+                VerticalOptions="Center">
+                <Button
+                    Padding="5"
+                    BackgroundColor="#C0C0C0"
+                    CornerRadius="45"
+                    HeightRequest="42"
+                    WidthRequest="42">
+                    <Button.ImageSource>
+                        <FileImageSource File="add_icon.png" />
+                    </Button.ImageSource>
+                </Button>
+
+                <Button
+                    Padding="5"
+                    BackgroundColor="#C0C0C0"
+                    CornerRadius="45"
+                    HeightRequest="42"
+                    WidthRequest="42">
+                    <Button.ImageSource>
+                        <FileImageSource File="more_options_icon.png" />
+                    </Button.ImageSource>
+                </Button>
+            </StackLayout>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Border
+                BackgroundColor="#808080"
+                HeightRequest="56"
+                Stroke="Red"
+                StrokeThickness="0">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="90" />
+                </Border.StrokeShape>
+
+                <StackLayout
+                    HeightRequest="48"
+                    Orientation="Horizontal"
+                    VerticalOptions="Center">
+                    <Image
+                        Margin="20,5,0,0"
+                        BackgroundColor="Transparent"
+                        HeightRequest="30"
+                        Source="search_icon.png"
+                        VerticalOptions="Center"
+                        WidthRequest="15" />
+
+                    <Label
+                        Margin="10,5,0,0"
+                        Text="Search"
+                        TextColor="Black"
+                        VerticalOptions="Center" />
+                </StackLayout>
+            </Border>
+        </Grid>
+
+        <StackLayout Grid.Row="2" Orientation="Horizontal">
+            <StackLayout WidthRequest="72">
+                <Button
+                    Margin="10,0,0,0"
+                    Padding="3"
+                    BackgroundColor="White"
+                    CornerRadius="45"
+                    HeightRequest="54"
+                    WidthRequest="54">
+                    <Button.ImageSource>
+                        <FileImageSource File="phone.png" />
+                    </Button.ImageSource>
+                </Button>
+
+                <Label
+                    Margin="0,5,0,0"
+                    FontSize="12"
+                    HorizontalOptions="Center"
+                    HorizontalTextAlignment="Center"
+                    Text="Create video call" />
+            </StackLayout>
+
+            <CollectionView
+                HorizontalScrollBarVisibility="Always"
+                ItemsLayout="HorizontalList"
+                ItemsSource="{Binding MessageList}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout WidthRequest="72">
+                            <Grid
+                                HeightRequest="54"
+                                HorizontalOptions="Center"
+                                WidthRequest="54">
+                                <Image
+                                    HeightRequest="54"
+                                    Source="{Binding userTarget.avatar_image.linkImage, FallbackValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png', TargetNullValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png'}"
+                                    WidthRequest="54" />
+                                <Ellipse
+                                    Fill="Green"
+                                    HeightRequest="18"
+                                    HorizontalOptions="End"
+                                    Stroke="Black"
+                                    StrokeThickness="6"
+                                    VerticalOptions="End"
+                                    WidthRequest="18" />
+                            </Grid>
+                            <Label
+                                Margin="0,5,0,0"
+                                FontSize="12"
+                                HorizontalOptions="Center"
+                                HorizontalTextAlignment="Center"
+                                Text="{Binding userTarget.FullName, TargetNullValue='Unknown'}" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </StackLayout>
+
+        <ScrollView Grid.Row="3" HorizontalOptions="FillAndExpand">
+            <StackLayout HorizontalOptions="FillAndExpand">
+                <CollectionView
+                    ItemsSource="{Binding MessageList}"
+                    SelectionChanged="OnSelectionChanged"
+                    SelectionMode="Single">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+                                <Grid
+                                    HeightRequest="64"
+                                    HorizontalOptions="Center"
+                                    WidthRequest="64">
+                                    <Image
+                                        HeightRequest="54"
+                                        Source="{Binding userTarget.avatar_image.linkImage, FallbackValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png', TargetNullValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png'}"
+                                        WidthRequest="54" />
+                                    <Ellipse
+                                        Fill="Green"
+                                        HeightRequest="18"
+                                        HorizontalOptions="End"
+                                        Stroke="Black"
+                                        StrokeThickness="6"
+                                        VerticalOptions="End"
+                                        WidthRequest="18" />
+                                </Grid>
+
+                                <StackLayout Margin="10,5,0,0" HorizontalOptions="StartAndExpand">
+                                    <Label
+                                        FontSize="17"
+                                        HorizontalOptions="Start"
+                                        HorizontalTextAlignment="Start"
+                                        Text="{Binding userTarget.FullName, TargetNullValue='Unknown'}"
+                                        VerticalOptions="Center" />
+
+                                    <Label
+                                        FontSize="14"
+                                        HorizontalOptions="Start"
+                                        HorizontalTextAlignment="Start"
+                                        LineBreakMode="TailTruncation"
+                                        MaxLines="1"
+                                        Text="{Binding content, TargetNullValue='No content'}"
+                                        VerticalOptions="FillAndExpand" />
+
+                                </StackLayout>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+
+            </StackLayout>
+        </ScrollView>
+        <!--  Tab bar  -->
+        <StackLayout
+            x:Name="TabBar"
+            BackgroundColor="LightGray"
+            IsVisible="False"
+            Orientation="Vertical"
+            WidthRequest="250">
+            <Button
+                Margin="10,10,10,10"
+                Clicked="OnSettingsClicked"
+                Text="Cài đặt"
+                WidthRequest="100" />
+            <Button
+                Margin="10,10,10,10"
+                Clicked="OnLogoutClicked"
+                Text="Đăng xuất"
+                WidthRequest="100" />
+        </StackLayout>
+    </Grid>
+</ContentPage>

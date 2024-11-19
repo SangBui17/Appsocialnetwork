@@ -1,0 +1,83 @@
+
+<ContentPage
+    x:Class="Social_network.Views.AddPost"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Social_network.ViewModels"
+    Shell.NavBarIsVisible="False">
+    <ScrollView>
+        <VerticalStackLayout Padding="10">
+
+            <!--  Top area with input field  -->
+            <Label
+                Margin="0,0,0,5"
+                FontAttributes="Bold"
+                Text="Bạn đang nghĩ gì?" />
+            <Editor
+                x:Name="PostInput"
+                HeightRequest="80"
+                Placeholder="Hôm nay"
+                Text="{Binding PostInput}" />
+
+            <!--  Image Gallery section  -->
+            <CollectionView
+                x:Name="ImageList"
+                ItemsSource="{Binding ImageList}"
+                SelectionChanged="OnImagesSelected"
+                SelectionMode="Multiple">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="3" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame
+                            Margin="5"
+                            BorderColor="Gray"
+                            CornerRadius="8"
+                            HeightRequest="120"
+                            WidthRequest="100">
+                            <Image
+                                Aspect="AspectFill"
+                                HeightRequest="110"
+                                Source="{Binding linkImage}"
+                                WidthRequest="90" />
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+
+            <HorizontalStackLayout
+                Margin="0,20,0,0"
+                HorizontalOptions="Center"
+                VerticalOptions="End">
+                <Picker
+                    x:Name="ShareOptionsPicker"
+                    Title="Chọn quyền riêng tư"
+                    HorizontalOptions="FillAndExpand"
+                    SelectedIndexChanged="OnPrivacyOptionChanged"
+                    WidthRequest="200">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Công khai</x:String>
+                            <x:String>Bạn bè</x:String>
+                            <x:String>Chỉ mình tôi</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+            </HorizontalStackLayout>
+
+            <!--  Action buttons (like adding images, tagging, etc.)  -->
+            <HorizontalStackLayout
+                Margin="0,20,0,0"
+                HorizontalOptions="Center"
+                Spacing="20">
+                <Button
+                    Command="{Binding SendPostCommand}"
+                    Text="Đăng"
+                    WidthRequest="80" />
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

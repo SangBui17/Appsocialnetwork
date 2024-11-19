@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Social_network.Views.HomePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:helper="clr-namespace:Social_network.Helpers"
+    xmlns:local="clr-namespace:Social_network.ViewModels"
+    BackgroundColor="White"
+    NavigationPage.HasBackButton="False"
+    Shell.NavBarIsVisible="False">
+
+    <ScrollView>
+        <StackLayout Padding="0">
+            <!--  Header Section  -->
+            <Grid Padding="10" BackgroundColor="White">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="40" />
+                    <ColumnDefinition Width="40" />
+                    <ColumnDefinition Width="40" />
+                </Grid.ColumnDefinitions>
+                <!--  Shell.NavBarIsVisible="False"  -->
+                <!--  Facebook Logo  -->
+                <Label
+                    Grid.Column="0"
+                    FontAttributes="Bold"
+                    FontSize="24"
+                    HorizontalOptions="Start"
+                    Text="Social Network"
+                    TextColor="#1877F2"
+                    VerticalOptions="Center" />
+
+                <!--  Add Post Icon  -->
+                <Image
+                    Grid.Column="1"
+                    HeightRequest="25"
+                    HorizontalOptions="Center"
+                    Source="add_icon1.png"
+                    VerticalOptions="Center"
+                    WidthRequest="25">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="AddPostTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <!--  Add Post Icon  -->
+                <Image
+                    Grid.Column="2"
+                    HeightRequest="25"
+                    HorizontalOptions="Center"
+                    Source="search_icon.png"
+                    VerticalOptions="Center"
+                    WidthRequest="25" />
+
+
+                <!--  Messenger Icon with Notification  -->
+                <Grid
+                    Grid.Column="3"
+                    HorizontalOptions="End"
+                    VerticalOptions="Center">
+                    <Image
+                        HeightRequest="25"
+                        Source="message_icon.png"
+                        WidthRequest="25">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="openmessage" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                </Grid>
+            </Grid>
+
+            <!--  Navigation Bar  -->
+            <Grid Padding="5,10" BackgroundColor="White">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!--  Home Icon  -->
+                <Image
+                    Grid.Column="0"
+                    HeightRequest="30"
+                    HorizontalOptions="Center"
+                    Source="home_icon.png"
+                    VerticalOptions="Center"
+                    WidthRequest="30" />
+
+                <!--  Watch Icon  -->
+                <Image
+                    Grid.Column="1"
+                    HeightRequest="35"
+                    HorizontalOptions="Center"
+                    Source="watch_icon.png"
+                    VerticalOptions="Center"
+                    WidthRequest="35" />
+
+                <!--  Resquest Icon  -->
+                <Image
+                    Grid.Column="2"
+                    HeightRequest="35"
+                    HorizontalOptions="Center"
+                    Source="group_icon.png"
+                    VerticalOptions="Center"
+                    WidthRequest="35">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OpenRequest" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <!--  Profile Icon  -->
+                <Image
+                    Grid.Column="3"
+                    HeightRequest="30"
+                    HorizontalOptions="Center"
+                    Source="profile_icon.png"
+                    VerticalOptions="Center"
+                    WidthRequest="30">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="openprofile" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <!--  Notifications Icon  -->
+                <Image
+                    Grid.Column="4"
+                    HeightRequest="30"
+                    HorizontalOptions="Center"
+                    Source="notification_icon.png"
+                    VerticalOptions="Center"
+                    WidthRequest="30">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnNotificationTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </Grid>
+
+
+            <!--  Post Section  -->
+            <StackLayout Padding="0" Spacing="20">
+
+                <!--  Post Example  -->
+                <CollectionView ItemsSource="{Binding PostList}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame
+                                Margin="-15,0,-15,-10"
+                                Padding="10"
+                                CornerRadius="0">
+                                <StackLayout>
+
+                                    <!--  Post Header  -->
+                                    <Grid Padding="10">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="50" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="30" />
+                                        </Grid.ColumnDefinitions>
+                                        <Frame
+                                            Margin="-10,0,0,0"
+                                            Padding="0"
+                                            BackgroundColor="Transparent"
+                                            CornerRadius="100"
+                                            HeightRequest="40"
+                                            IsClippedToBounds="True"
+                                            WidthRequest="40">
+                                            <Image
+                                                Aspect="AspectFill"
+                                                HeightRequest="40"
+                                                Source="{Binding authorResponse.avatar.linkImage, TargetNullValue='default_image.png'}"
+                                                WidthRequest="40" />
+                                        </Frame>
+
+                                        <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                            <Label FontAttributes="Bold" Text="{Binding authorResponse.fullName}" />
+                                            <Label
+                                                FontSize="10"
+                                                Text="18 thg 10"
+                                                TextColor="Gray" />
+                                        </StackLayout>
+
+                                        <!--  More Options  -->
+                                        <Image
+                                            Grid.Column="2"
+                                            HeightRequest="20"
+                                            Source="more_options_icon.png"
+                                            VerticalOptions="Center"
+                                            WidthRequest="20" />
+                                    </Grid>
+
+                                    <!--  Post Content  -->
+                                    <Label
+                                        Padding="10"
+                                        FontSize="14"
+                                        Text="{Binding content}" />
+
+                                    <!--  Post Images  -->
+                                    <ScrollView>
+                                        <CollectionView ItemsSource="{Binding images}">
+                                            <!--<CollectionView.ItemsLayout>
+                                                <GridItemsLayout Orientation="Vertical" Span="3" />
+                                            </CollectionView.ItemsLayout>-->
+                                            <CollectionView.ItemTemplate>
+                                                <DataTemplate>
+                                                    <Frame
+                                                        Margin="-40,5,-40,0"
+                                                        Padding="0"
+                                                        BackgroundColor="Transparent"
+                                                        CornerRadius="0"
+                                                        HeightRequest="220"
+                                                        IsClippedToBounds="True">
+                                                        <Image HeightRequest="220" Source="{Binding linkImage}" />
+                                                    </Frame>
+                                                </DataTemplate>
+                                            </CollectionView.ItemTemplate>
+                                        </CollectionView>
+                                    </ScrollView>
+
+                                    <!--  Like, Comment, Share Counts  -->
+                                    <Grid Padding="0,0,10,10">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+
+                                        <!--  Likes  -->
+                                        <StackLayout
+                                            Grid.Column="0"
+                                            HorizontalOptions="Start"
+                                            Orientation="Horizontal"
+                                            VerticalOptions="Center">
+                                            <Image
+                                                Margin="25,20,0,0"
+                                                HeightRequest="20"
+                                                Source="like_icon1.png"
+                                                WidthRequest="20" />
+                                            <Label Margin="10,20,0,0" FontSize="12">
+                                                <Label.FormattedText>
+                                                    <FormattedString>
+                                                        <Span Text="{Binding likeCount}" TextColor="Gray" />
+                                                    </FormattedString>
+                                                </Label.FormattedText>
+                                            </Label>
+
+                                        </StackLayout>
+
+                                        <!--  Comments and Shares  -->
+                                        <StackLayout
+                                            Grid.Column="1"
+                                            HorizontalOptions="Center"
+                                            Orientation="Horizontal"
+                                            VerticalOptions="Center">
+                                            <Label Margin="5,20,0,0" FontSize="12">
+                                                <Label.FormattedText>
+                                                    <FormattedString>
+                                                        <Span Text="{Binding commentCount}" TextColor="Gray" />
+                                                        <Span Text=" bình luận" TextColor="Gray" />
+                                                    </FormattedString>
+                                                </Label.FormattedText>
+                                            </Label>
+                                            <StackLayout.GestureRecognizers>
+                                                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type local:PostViewModel}}, Path=CommentTappedCommand}" CommandParameter="{Binding id}" />
+                                            </StackLayout.GestureRecognizers>
+                                        </StackLayout>
+
+                                        <StackLayout
+                                            Grid.Column="2"
+                                            HorizontalOptions="End"
+                                            Orientation="Horizontal"
+                                            VerticalOptions="Center">
+                                            <Label Margin="0,20,10,0" FontSize="12">
+                                                <Label.FormattedText>
+                                                    <FormattedString>
+                                                        <Span Text="{Binding shareCount}" TextColor="Gray" />
+                                                        <Span Text=" lượt chia sẻ" TextColor="Gray" />
+                                                    </FormattedString>
+                                                </Label.FormattedText>
+                                            </Label>
+                                        </StackLayout>
+
+                                    </Grid>
+                                    <!--  Post Footer (Like, Comment, Share)  -->
+                                    <Grid Padding="0,0,10,10">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+
+                                        <StackLayout Grid.Column="0" HorizontalOptions="Center">
+                                            <Button
+                                                Margin="-5,0,0,0"
+                                                Padding="6"
+                                                BackgroundColor="Transparent"
+                                                BorderColor="Gray"
+                                                Command="{Binding Source={RelativeSource AncestorType={x:Type local:PostViewModel}}, Path=SendLikeCommand}"
+                                                CommandParameter="{Binding id}"
+                                                CornerRadius="200"
+                                                FontAttributes="Bold"
+                                                FontSize="11"
+                                                HeightRequest="30"
+                                                Text="Thích"
+                                                TextColor="Black"
+                                                WidthRequest="90">
+                                                <Button.Triggers>
+                                                    <DataTrigger
+                                                        Binding="{Binding liked}"
+                                                        TargetType="Button"
+                                                        Value="True">
+                                                        <Setter Property="ImageSource" Value="like_icon1.png" />
+                                                    </DataTrigger>
+                                                    <DataTrigger
+                                                        Binding="{Binding liked}"
+                                                        TargetType="Button"
+                                                        Value="False">
+                                                        <Setter Property="ImageSource" Value="like_icon.png" />
+                                                    </DataTrigger>
+                                                </Button.Triggers>
+                                            </Button>
+
+                                        </StackLayout>
+
+
+                                        <StackLayout Grid.Column="1" HorizontalOptions="Center">
+                                            <Button
+                                                Margin="10,0,0,0"
+                                                Padding="6"
+                                                BackgroundColor="Transparent"
+                                                BorderColor="Gray"
+                                                Command="{Binding Source={RelativeSource AncestorType={x:Type local:PostViewModel}}, Path=CommentTappedCommand}"
+                                                CommandParameter="{Binding id}"
+                                                CornerRadius="200"
+                                                FontAttributes="Bold"
+                                                FontSize="11"
+                                                HeightRequest="30"
+                                                Text="Bình luận"
+                                                TextColor="Black"
+                                                WidthRequest="90">
+                                                <Button.ImageSource>
+                                                    <FileImageSource File="comment_icon.png" />
+                                                </Button.ImageSource>
+                                            </Button>
+                                        </StackLayout>
+
+                                        <StackLayout Grid.Column="2" HorizontalOptions="Center">
+                                            <Button
+                                                Margin="20,0,0,0"
+                                                Padding="6"
+                                                BackgroundColor="Transparent"
+                                                BorderColor="Gray"
+                                                CornerRadius="200"
+                                                FontAttributes="Bold"
+                                                FontSize="11"
+                                                HeightRequest="30"
+                                                Text="Chia sẻ"
+                                                TextColor="Black"
+                                                WidthRequest="90">
+                                                <Button.ImageSource>
+                                                    <FileImageSource File="share_icon.png" />
+                                                </Button.ImageSource>
+                                            </Button>
+                                        </StackLayout>
+                                    </Grid>
+                                </StackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

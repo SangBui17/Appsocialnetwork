@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Social_network.Views.FriendResquestPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Shell.NavBarIsVisible="False">
+    <VerticalStackLayout>
+        <!--  Tìm kiếm  -->
+        <Frame Padding="0,8,0,0" HeightRequest="50">
+            <Label
+                FontAttributes="Bold"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                Text="Lời mời kết bạn" />
+        </Frame>
+
+        <CollectionView ItemsSource="{Binding Friends}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="10,10,0,0" ColumnDefinitions="Auto,*,Auto,Auto">
+                        <!--  Ảnh đại diện  -->
+                        <Image
+                            Grid.Column="0"
+                            Aspect="AspectFill"
+                            Clip="Circle"
+                            HeightRequest="60"
+                            Source="{Binding user_info.avatar_image.linkImage, FallbackValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png', TargetNullValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png'}"
+                            WidthRequest="60" />
+
+                        <!--  Tên người dùng  -->
+                        <Label
+                            Grid.Column="1"
+                            Margin="10,0,0,0"
+                            FontAttributes="Bold"
+                            Text="{Binding user_info.FullName}"
+                            VerticalOptions="Center" />
+
+                        <!--  Nút option  -->
+                        <Button
+                            Grid.Column="2"
+                            BackgroundColor="Transparent"
+                            Clicked="OnAcceptButtonClicked"
+                            CornerRadius="10"
+                            FontAttributes="Bold"
+                            HeightRequest="40"
+                            WidthRequest="45">
+                            <Button.ImageSource>
+                                <FileImageSource File="accept_icon.png" />
+                            </Button.ImageSource>
+                        </Button>
+
+                        <Button
+                            Grid.Column="3"
+                            BackgroundColor="Transparent"
+                            Clicked="OnRejectButtonClicked"
+                            CornerRadius="10"
+                            FontAttributes="Bold"
+                            HeightRequest="40"
+                            WidthRequest="45">
+                            <Button.ImageSource>
+                                <FileImageSource File="reject_icon.png" />
+                            </Button.ImageSource>
+                        </Button>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+
+    </VerticalStackLayout>
+</ContentPage>
