@@ -10,5 +10,7 @@ namespace Social_network.Repository
     interface UserInfoRepository
     {
         Task<UserInfoResponse> GetUserInfo();
+        Task<UserInfoResponse> GetUserById(long id);
     }
+
 }

@@ -28,7 +28,7 @@ public partial class LoginPage : ContentPage
 		LoginInfo userInfo = await loginrepository.Login(username, password);
 		if (userInfo != null)
 		{
-			await Navigation.PushAsync(new ChatPage());
+			await Navigation.PushAsync(new HomePage());
 
 		}
 

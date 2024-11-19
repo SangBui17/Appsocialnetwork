@@ -28,7 +28,8 @@
                 <StackLayout Orientation="Horizontal">
                     <Image
                         HeightRequest="32"
-                        Source="{Binding MessageList[0].userTarget.avatar_image.linkImage , TargetNullValue='Unknown'}"
+                        Source="{Binding MessageList[0].userSource.avatar_image.linkImage , FallbackValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png', 
+TargetNullValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png'}"
                         VerticalOptions="Center"
                         WidthRequest="32" />
                     <Label
@@ -36,37 +37,28 @@
                         FontAttributes="None"
                         FontSize="15"
                         TextColor="White"
-                        Text="{Binding MessageList[0].userTarget.FullName, TargetNullValue='Unknown'}"
+                        Text="{Binding MessageList[0].userTarget.FullName, TargetNullValue='truong'}"
                         VerticalOptions="Center" />
                 </StackLayout>
                 <StackLayout
                     HorizontalOptions="End"
                     Orientation="Horizontal"
                     VerticalOptions="Center">
-                    <Button
-                        BackgroundColor="#152c39"
+                    <Button BackgroundColor="White"
                         CornerRadius="45"
                         HeightRequest="32"
-                        WidthRequest="32">
+                        WidthRequest="32" Padding="4.5">
                         <Button.ImageSource>
-                            <FontImageSource
-                                FontFamily="IconFontTypes"
-                                Glyph="{x:Static helper:IconFontHelper.Camera_alt}"
-                                Size="18" />
+                            <FileImageSource File="phone.png" />
                         </Button.ImageSource>
                     </Button>
 
-                    <Button
-                        Margin="10,0,0,0"
-                        BackgroundColor="#152c39"
+                    <Button BackgroundColor="White"
                         CornerRadius="45"
                         HeightRequest="32"
-                        WidthRequest="32">
+                        WidthRequest="32" Padding="4.5">
                         <Button.ImageSource>
-                            <FontImageSource
-                                FontFamily="IconFontTypes"
-                                Glyph="{x:Static helper:IconFontHelper.Edit}"
-                                Size="18" />
+                            <FileImageSource File="edit.png" />
                         </Button.ImageSource>
                     </Button>
                 </StackLayout>
@@ -94,7 +86,7 @@
                                     </MultiBinding>
                                 </HorizontalStackLayout.IsVisible>
                                 <Frame BackgroundColor="#e1ffc7" CornerRadius="10" Padding="10" MaximumWidthRequest="250">
-                                    <Label Text="{Binding content, TargetNullValue='unknown'}" LineBreakMode="WordWrap"/>
+                                    <Label Text="{Binding content, TargetNullValue='chao'}" LineBreakMode="WordWrap"/>
                                 </Frame>
                             </HorizontalStackLayout>
 
@@ -106,7 +98,8 @@
                                         <Binding Path="CurrentUserId" Source="{RelativeSource AncestorType={x:Type ViewModels:MessageViewModels}}" />
                                     </MultiBinding>
                                 </HorizontalStackLayout.IsVisible>
-                                <Image Source="{Binding userTarget.avatar_image.linkImage}" HeightRequest="30" WidthRequest="30" Margin="0,0,10,0" />
+                                <Image Source="{Binding userTarget.avatar_image.linkImage, FallbackValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png', 
+TargetNullValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png'}" HeightRequest="30" WidthRequest="30" Margin="0,0,10,0" />
                                 <Frame BackgroundColor="#f1f1f1" CornerRadius="10" Padding="10" MaximumWidthRequest="250">
                                     <Label Text="{Binding content}" LineBreakMode="WordWrap"/>
                                 </Frame>
@@ -137,18 +130,14 @@
                         Visual="None"/>
                 </Frame>
 
-                <Button
-                    Grid.Column="1"
-                    BackgroundColor="#152c39"
-                    Command="{Binding SendMessageCommand}"
-                    CornerRadius="45"
-                    HeightRequest="32"
-                    WidthRequest="32">
+                <Button Grid.Column="1"
+                        BackgroundColor="White"
+                        Command="{Binding SendMessageCommand}"
+                        CornerRadius="45"
+                        HeightRequest="32"
+                        WidthRequest="32" Padding="4.5">
                     <Button.ImageSource>
-                        <FontImageSource
-                            FontFamily="IconFontTypes"
-                            Glyph="{x:Static helper:IconFontHelper.Send}"
-                            Size="18" />
+                        <FileImageSource File="send.png" />
                     </Button.ImageSource>
                 </Button>
             </Grid>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Social_network.Views.FriendsPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <VerticalStackLayout>
+        <!--  Tìm kiếm  -->
+        <HorizontalStackLayout
+            Margin="0,0,0,10"
+            HorizontalOptions="Center"
+            Spacing="10"
+            VerticalOptions="Center">
+            <Frame
+                Padding="0"
+                BorderColor="Gray"
+                CornerRadius="15"
+                VerticalOptions="Center">
+                <Entry
+                    Margin="10,0"
+                    HeightRequest="35"
+                    Placeholder="Tìm kiếm bạn bè"
+                    WidthRequest="250" />
+            </Frame>
+        </HorizontalStackLayout>
+
+        <CollectionView
+            ItemsSource="{Binding Friends}"
+            SelectionChanged="OnSelectionUserIdChanged"
+            SelectionMode="Single">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <HorizontalStackLayout Margin="10,10,0,0">
+                        <Image
+                            Aspect="AspectFill"
+                            Clip="Circle"
+                            HeightRequest="60"
+                            Source="{Binding user_info.avatar_image.linkImage, FallbackValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png', 
+TargetNullValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png'}"
+                            WidthRequest="60" />
+                        <Label
+                            Margin="10,0,0,0"
+                            FontAttributes="Bold"
+                            Text="{Binding user_info.FullName}"
+                            VerticalOptions="Center" />
+                    </HorizontalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>

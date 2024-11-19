@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:helper="clr-namespace:Social_network.Helpers"
-             x:Class="Social_network.Views.ChatPage"   
+             x:Class="Social_network.Views.ChatPage"
              Shell.NavBarIsVisible="False"
              BackgroundColor="{DynamicResource PrimaryColor}">
     <ContentPage.IconImageSource>
@@ -21,7 +21,8 @@
         <Grid>
             <StackLayout>
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="tony_stark.png" WidthRequest="42" 
+                    <Image Source="{Binding UserInfo.avatar_image.linkImage, FallbackValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png', 
+TargetNullValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png'}" WidthRequest="42" 
                    HeightRequest="42" VerticalOptions="Center"/>
                     <Label Text="Chats" VerticalOptions="Center"
                    FontSize="25" FontAttributes="Bold" Margin="10,0,0,0"/>
@@ -34,51 +35,49 @@
 
             <StackLayout Orientation="Horizontal" VerticalOptions="Center"
                          HorizontalOptions="End">
-                <Button BackgroundColor="#1d1d1d" HeightRequest="42"
-                        WidthRequest="42" CornerRadius="45">
+                <Button BackgroundColor="#C0C0C0" HeightRequest="42"
+        WidthRequest="42" CornerRadius="45" Padding="5">
                     <Button.ImageSource>
-                        <FontImageSource FontFamily="IconFontTypes" Glyph="{x:Static helper:IconFontHelper.Camera_alt}"
-                                         Size="18"/>
+                        <FileImageSource File="add_icon.png" />
                     </Button.ImageSource>
                 </Button>
 
-                <Button BackgroundColor="#1d1d1d" HeightRequest="42"
-                        WidthRequest="42" CornerRadius="45" Margin="10,0,0,0">
+                <Button BackgroundColor="#C0C0C0" HeightRequest="42"
+WidthRequest="42" CornerRadius="45" Padding="5">
                     <Button.ImageSource>
-                        <FontImageSource FontFamily="IconFontTypes" Glyph="{x:Static helper:IconFontHelper.Edit}"
-                                         Size="18"/>
+                        <FileImageSource File="more_options_icon.png" />
                     </Button.ImageSource>
                 </Button>
             </StackLayout>
         </Grid>
 
         <Grid Grid.Row="1">
-            <Border StrokeThickness="0" HeightRequest="56" BackgroundColor="#1d1d1d"
+            <Border StrokeThickness="0" HeightRequest="56" BackgroundColor="#808080"
                     Stroke="Red">
                 <Border.StrokeShape>
                     <RoundRectangle CornerRadius="90"/>
                 </Border.StrokeShape>
 
                 <StackLayout Orientation="Horizontal" VerticalOptions="Center" HeightRequest="48">
-                    <Image BackgroundColor="Transparent" Margin="20,5,0,0" VerticalOptions="Center">
-                        <Image.Source>
-                            <FontImageSource FontFamily="IconFontTypes" Glyph="{x:Static helper:IconFontHelper.Search}"
-                                            Size="18" Color="Gray"/>
-                        </Image.Source>
-                    </Image>
+                    <Image
+                        Source="search_icon.png"
+                        BackgroundColor="Transparent"
+                        HeightRequest="30"
+                        WidthRequest="15"
+                        Margin="20,5,0,0"
+                        VerticalOptions="Center" />
 
-                    <Label Text="Search" TextColor="Gray" VerticalOptions="Center" Margin="10,5,0,0"/>
+                    <Label Text="Search" TextColor="Black" VerticalOptions="Center" Margin="10,5,0,0"/>
                 </StackLayout>
             </Border>
         </Grid>
 
         <StackLayout Orientation="Horizontal" Grid.Row="2">
             <StackLayout WidthRequest="72">
-                <Button BackgroundColor="#1d1d1d" HeightRequest="54"
-                        WidthRequest="54" CornerRadius="45" Margin="10,0,0,0">
+                <Button BackgroundColor="White" HeightRequest="54"
+                        WidthRequest="54" CornerRadius="45" Margin="10,0,0,0" Padding="3">
                     <Button.ImageSource>
-                        <FontImageSource FontFamily="IconFontTypes" Glyph="{x:Static helper:IconFontHelper.Video_call}"
-                                         Size="24"/>
+                        <FileImageSource File="phone.png" />
                     </Button.ImageSource>
                 </Button>
 
