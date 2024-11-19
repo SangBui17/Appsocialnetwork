@@ -5,8 +5,6 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Social network", "Social network\Social network.csproj", "{9A3F200D-0464-4B8C-B942-46C9AD6A3755}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "socialmediaSignalR", "socialmediaSignalR\socialmediaSignalR.csproj", "{0C93B8E1-D8E6-456A-A5B1-F1C18F382C62}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,10 +17,6 @@ Global
 		{9A3F200D-0464-4B8C-B942-46C9AD6A3755}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A3F200D-0464-4B8C-B942-46C9AD6A3755}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9A3F200D-0464-4B8C-B942-46C9AD6A3755}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{0C93B8E1-D8E6-456A-A5B1-F1C18F382C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0C93B8E1-D8E6-456A-A5B1-F1C18F382C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0C93B8E1-D8E6-456A-A5B1-F1C18F382C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0C93B8E1-D8E6-456A-A5B1-F1C18F382C62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

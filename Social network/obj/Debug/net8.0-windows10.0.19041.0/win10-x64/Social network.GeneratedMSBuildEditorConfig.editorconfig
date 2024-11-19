@@ -103,12 +103,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = Social_network.Views.ListC
 build_metadata.AdditionalFiles.TargetPath = Views\ListChatPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ListChatPage.xaml
 
-[D:/BuiCongSang/Cross-platform/Appsocialnetwork/Social network/Views/NewContent1.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Social_network.Views.NewContent1.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\NewContent1.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\NewContent1.xaml
-
 [D:/BuiCongSang/Cross-platform/Appsocialnetwork/Social network/Views/NotificationPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Social_network.Views.NotificationPage.xaml

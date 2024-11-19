@@ -151,9 +151,6 @@
 		<MauiXaml Update="Views\FriendsPage.xaml">
 		  <Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
-		<MauiXaml Update="Views\NewContent1.xaml">
-		  <Generator>MSBuild:Compile</Generator>
-		</MauiXaml>
 		<MauiXaml Update="Views\ProfileUserPage.xaml">
 		  <Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
