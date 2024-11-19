@@ -6,6 +6,7 @@ using Social_network.ServicesImp;
 using Social_network.Views;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
@@ -22,7 +23,7 @@ namespace Social_network.ViewModels
 		private readonly PostService _postService;
 		private List<ImageResponse> _imageList;
 		private string _post;
-		private List<long> _selectedImageIds = new List<long>();
+		//private List<long> _selectedImageIds = new List<long>();
 		private int _privacy;
 		public long imageId;
 		public string PostInput
@@ -34,7 +35,19 @@ namespace Social_network.ViewModels
 				OnPropertyChanged(nameof(PostInput));
 			}
 		}
-		
+		private ObservableCollection<ImageResponse> _selectedImageList = new ObservableCollection<ImageResponse>();
+		public ObservableCollection<ImageResponse> SelectedImageList
+		{
+			get => _selectedImageList;
+			set
+			{
+				_selectedImageList = value;
+				OnPropertyChanged(nameof(SelectedImageList));
+			}
+		}
+
+		// Thuộc tính lưu danh sách ID ảnh
+		public List<long> SelectedImageIds { get; set; } = new List<long>();
 		//public List<long> SelectedImageIds
 		//{
 		//	get => _selectedImageIds;
@@ -70,11 +83,15 @@ namespace Social_network.ViewModels
 			SendPostCommand = new Command(async () => await SendPostAsync());
 		}
 		public ICommand SendPostCommand { get; }
-		public List<long> SelectedImageIds;
+
 		public async Task SendPostAsync()
 		{
 			if (string.IsNullOrWhiteSpace(PostInput)) return;
-			Console.WriteLine("Check"+ SelectedImageIds);
+
+			Console.WriteLine($"Post Content: {PostInput}");
+			Console.WriteLine($"Selected Privacy: {Privacy}");
+			Console.WriteLine($"Selected Image IDs: {string.Join(", ", SelectedImageIds)}");
+
 			var postRequest = new PostRequest
 			{
 				content = PostInput,
@@ -83,7 +100,17 @@ namespace Social_network.ViewModels
 			};
 
 			var responseContent = await _postService.createPost(postRequest);
-			// Xử lý phản hồi từ server nếu cần
+
+			if (responseContent != null)
+			{
+				Console.WriteLine("Post created successfully");
+			}
+			OnSendAddPostTapped();
+		}
+		private async void OnSendAddPostTapped()
+		{
+			// Quay lại trang trước (HomePage trong trường hợp này)
+			await Application.Current.MainPage.Navigation.PopAsync();
 		}
 		public async Task GetAddPostAsync()
 		{
@@ -92,6 +119,7 @@ namespace Social_network.ViewModels
 			if (images != null)
 			{
 				ImageList = images; // Update the property with the fetched messages
+				Console.WriteLine($"Fetched {images.Count} images");
 			}
 		}
 		public event PropertyChangedEventHandler PropertyChanged;

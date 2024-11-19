@@ -19,12 +19,21 @@ public partial class AddPost : ContentPage
 
 		if (selectedImages != null && selectedImages.Count > 0)
 		{
+			// Lấy danh sách ID ảnh
 			var imageIds = selectedImages.Select(img => img.id).ToList();
 			Console.WriteLine("kiemtra imageIds" + imageIds);
+			Console.WriteLine($"Selected image IDs: {string.Join(", ", imageIds)}");
+
+			// Cập nhật danh sách ảnh đã chọn
 			var viewModel = BindingContext as AddPostViewModel;
 			if (viewModel != null)
 			{
 				viewModel.SelectedImageIds = imageIds;
+				viewModel.SelectedImageList.Clear();
+				foreach (var img in selectedImages)
+				{
+					viewModel.SelectedImageList.Add(img);
+				}
 			}
 		}
 
@@ -34,6 +43,8 @@ public partial class AddPost : ContentPage
 			collectionView.SelectedItem = null;
 		}
 	}
+
+	
 
 	private void OnPrivacyOptionChanged(object sender, EventArgs e)
 	{
