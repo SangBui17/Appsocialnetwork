@@ -32,11 +32,6 @@ public partial class HomePage : ContentPage
     {
         await Navigation.PushAsync(new ChatPage());
     }
-    private async void OpenRequest(object sender, EventArgs e)
-    {
-        await Navigation.PushAsync(new FriendResquestPage());
-    }
-
     private async void openprofile(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new ProfilePage());
@@ -44,6 +39,15 @@ public partial class HomePage : ContentPage
     private async void OnNotificationTapped(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new NotificationPage());
+    }
+    private async void SearchTapped(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new SearchPage());
+    }
+
+    private async void OpenRequest(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new FriendResquestPage());
     }
 
 }

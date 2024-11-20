@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7cMyB8Zd1iE=",
+  "dgSpecHash": "OE1f0NlqzOM=",
   "success": true,
-  "projectFilePath": "D:\\BuiCongSang\\Cross-platform\\Appsocialnetwork\\Social network\\Social network.csproj",
+  "projectFilePath": "D:\\BuiCongSang\\Cross-platform\\Social network\\Social network\\Social network.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\apache.nms\\2.0.0\\apache.nms.2.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\apache.nms.activemq\\2.1.0\\apache.nms.activemq.2.1.0.nupkg.sha512",

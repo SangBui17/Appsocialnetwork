@@ -12,108 +12,114 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Social_network
-build_property.ProjectDir = D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\
+build_property.ProjectDir = D:\BuiCongSang\Cross-platform\Social network\Social network\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[D:/BuiCongSang/Cross-platform/Appsocialnetwork/Social network/App.xaml]
+[D:/BuiCongSang/Cross-platform/Social network/Social network/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Social_network.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/BuiCongSang/Cross-platform/Appsocialnetwork/Social network/AppShell.xaml]
+[D:/BuiCongSang/Cross-platform/Social network/Social network/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Social_network.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/BuiCongSang/Cross-platform/Appsocialnetwork/Social network/LoginPage.xaml]
+[D:/BuiCongSang/Cross-platform/Social network/Social network/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Social_network.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
 
-[D:/BuiCongSang/Cross-platform/Appsocialnetwork/Social network/MainPage.xaml]
+[D:/BuiCongSang/Cross-platform/Social network/Social network/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Social_network.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[D:/BuiCongSang/Cross-platform/Appsocialnetwork/Social network/Resources/Styles/Colors.xaml]
+[D:/BuiCongSang/Cross-platform/Social network/Social network/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Social_network.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/BuiCongSang/Cross-platform/Appsocialnetwork/Social network/Resources/Styles/Styles.xaml]
+[D:/BuiCongSang/Cross-platform/Social network/Social network/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Social_network.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[D:/BuiCongSang/Cross-platform/Appsocialnetwork/Social network/Views/AddPost.xaml]
+[D:/BuiCongSang/Cross-platform/Social network/Social network/Views/AddPost.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Social_network.Views.AddPost.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AddPost.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AddPost.xaml
 
-[D:/BuiCongSang/Cross-platform/Appsocialnetwork/Social network/Views/ChatPage.xaml]
+[D:/BuiCongSang/Cross-platform/Social network/Social network/Views/ChatPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Social_network.Views.ChatPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ChatPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ChatPage.xaml
 
-[D:/BuiCongSang/Cross-platform/Appsocialnetwork/Social network/Views/CommentPage.xaml]
+[D:/BuiCongSang/Cross-platform/Social network/Social network/Views/CommentPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Social_network.Views.CommentPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CommentPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CommentPage.xaml
 
-[D:/BuiCongSang/Cross-platform/Appsocialnetwork/Social network/Views/FriendResquestPage.xaml]
+[D:/BuiCongSang/Cross-platform/Social network/Social network/Views/FriendResquestPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Social_network.Views.FriendResquestPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\FriendResquestPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\FriendResquestPage.xaml
 
-[D:/BuiCongSang/Cross-platform/Appsocialnetwork/Social network/Views/FriendsPage.xaml]
+[D:/BuiCongSang/Cross-platform/Social network/Social network/Views/FriendsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Social_network.Views.FriendsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\FriendsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\FriendsPage.xaml
 
-[D:/BuiCongSang/Cross-platform/Appsocialnetwork/Social network/Views/FriendUserPage.xaml]
+[D:/BuiCongSang/Cross-platform/Social network/Social network/Views/FriendUserPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Social_network.Views.FriendUserPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\FriendUserPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\FriendUserPage.xaml
 
-[D:/BuiCongSang/Cross-platform/Appsocialnetwork/Social network/Views/HomePage.xaml]
+[D:/BuiCongSang/Cross-platform/Social network/Social network/Views/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Social_network.Views.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
 
-[D:/BuiCongSang/Cross-platform/Appsocialnetwork/Social network/Views/ListChatPage.xaml]
+[D:/BuiCongSang/Cross-platform/Social network/Social network/Views/ListChatPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Social_network.Views.ListChatPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ListChatPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ListChatPage.xaml
 
-[D:/BuiCongSang/Cross-platform/Appsocialnetwork/Social network/Views/NotificationPage.xaml]
+[D:/BuiCongSang/Cross-platform/Social network/Social network/Views/NotificationPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Social_network.Views.NotificationPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\NotificationPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\NotificationPage.xaml
 
-[D:/BuiCongSang/Cross-platform/Appsocialnetwork/Social network/Views/ProfilePage.xaml]
+[D:/BuiCongSang/Cross-platform/Social network/Social network/Views/ProfilePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Social_network.Views.ProfilePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ProfilePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ProfilePage.xaml
 
-[D:/BuiCongSang/Cross-platform/Appsocialnetwork/Social network/Views/ProfileUserPage.xaml]
+[D:/BuiCongSang/Cross-platform/Social network/Social network/Views/ProfileUserPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Social_network.Views.ProfileUserPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ProfileUserPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ProfileUserPage.xaml
+
+[D:/BuiCongSang/Cross-platform/Social network/Social network/Views/SearchPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Social_network.Views.SearchPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SearchPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SearchPage.xaml

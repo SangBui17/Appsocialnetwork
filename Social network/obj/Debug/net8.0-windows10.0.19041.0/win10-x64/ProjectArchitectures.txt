@@ -1,1 +1,1 @@
-D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\Social network.csproj;x64
+D:\BuiCongSang\Cross-platform\Social network\Social network\Social network.csproj;x64

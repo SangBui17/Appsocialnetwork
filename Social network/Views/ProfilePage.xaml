@@ -9,31 +9,7 @@
         <VerticalStackLayout>
             <!--  Container 1  -->
             <VerticalStackLayout Padding="10" BackgroundColor="White">
-                <!--  Header with Back and Search Icons  -->
-                <!--<HorizontalStackLayout
-                    Margin="0,0,0,10"
-                    Spacing="10"
-                    VerticalOptions="Center">
-                    <Frame
-                        Padding="0"
-                        BorderColor="Gray"
-                        CornerRadius="15"
-                        VerticalOptions="Center"
-                        WidthRequest="340">
-                        <Entry
-                            Margin="30,0"
-                            HeightRequest="35"
-                            Placeholder=""
-                            WidthRequest="290" />
-                    </Frame>
 
-                    <ImageButton
-                        BackgroundColor="Transparent"
-                        HeightRequest="20"
-                        WidthRequest="20"
-                        Source="search_icon.png"
-                         />
-                </HorizontalStackLayout>-->
 
                 <!--  Profile Image and Group Photo  -->
                 <Grid>

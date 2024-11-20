@@ -10,7 +10,7 @@ namespace Social_network.ViewModels
 {
     class FriendViewModel : INotifyPropertyChanged
     {
-        
+
         private readonly UserInfoService _userInfoService;
         private Response.UserInfoResponse _userInfoResponse;
 
@@ -105,7 +105,7 @@ namespace Social_network.ViewModels
                 // Gửi yêu cầu thêm bạn
                 var result = await _friendService.AddFriend(id);
                 if (result)
-                {   
+                {
                     ErrorMessage = "Đã gửi lời mời kết bạn thành công.";
                 }
                 else
@@ -120,19 +120,19 @@ namespace Social_network.ViewModels
         }
         public async Task RemoveFriendAsync(long userTarget)
         {
-           
-                // Gửi yêu cầu thêm bạn
-                var result = await _friendService.RemoveFriend(userTarget);
-                if (result)
-                {   
-                    ErrorMessage = "Huy kết bạn thành công.";
-                }
-                else
-                {
-                    ErrorMessage = "Không thể huy kết bạn.";
-                }
+
+            // Gửi yêu cầu thêm bạn
+            var result = await _friendService.RemoveFriend(userTarget);
+            if (result)
+            {
+                ErrorMessage = "Huy kết bạn thành công.";
+            }
+            else
+            {
+                ErrorMessage = "Không thể huy kết bạn.";
+            }
         }
-            
+
         public event PropertyChangedEventHandler? PropertyChanged;
 
         protected virtual void OnPropertyChanged(string propertyName)

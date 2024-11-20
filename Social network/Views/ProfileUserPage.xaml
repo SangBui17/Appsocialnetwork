@@ -9,6 +9,7 @@
         <VerticalStackLayout>
             <!--  Container 1  -->
             <VerticalStackLayout Padding="10" BackgroundColor="White">
+
                 <!--  Profile Image and Group Photo  -->
                 <Grid>
                     <Image

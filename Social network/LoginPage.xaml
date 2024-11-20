@@ -1,179 +1,68 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage
-    x:Class="Social_network.LoginPage"
-    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    Title="{Binding Path=Isvisible}"
-    Shell.NavBarIsVisible="False">
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Social_network.LoginPage"
+             Shell.NavBarIsVisible="False"
+             Title="{Binding Path=Isvisible}">
 
     <Grid BackgroundColor="White">
         <Grid.RowDefinitions>
-            <RowDefinition Height="220" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="50" />
+            <RowDefinition Height="220"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
 
         <StackLayout>
-            <Frame
-                Margin="0,100,0,0"
-                Padding="0"
-                BackgroundColor="SkyBlue"
-                CornerRadius="30"
-                HeightRequest="60"
-                HorizontalOptions="Center"
-                WidthRequest="60">
-                <Image
-                    Margin="0"
-                    Aspect="Fill"
-                    Source="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png" />
+            <Frame BackgroundColor="SkyBlue" HeightRequest="60" WidthRequest="60" CornerRadius="30" Padding="0" Margin="0,100,0,0" HorizontalOptions="Center">
+                <Image Source="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png" Aspect="Fill" Margin="0"/>
             </Frame>
         </StackLayout>
 
 
-        <Grid
-            Grid.Row="1"
-            Margin="20,20,20,0"
-            RowSpacing="5">
+        <Grid RowSpacing="5" Grid.Row="1" Margin="20,20,20,0">
             <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="50" />
-                <RowDefinition Height="50" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="40" />
-                <RowDefinition Height="40" />
-                <RowDefinition Height="*" />
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            <Label
-                Grid.Row="1"
-                Margin="0"
-                Padding="0"
-                FontAttributes="Bold"
-                FontSize="Title"
-                HorizontalOptions="Center"
-                Text="Welcome to Social Network!" />
-            <Label
-                Grid.Row="2"
-                FontSize="Subtitle"
-                HorizontalOptions="Center"
-                Text="Sign in to continue" />
+            <Label Grid.Row="1" Text="Welcome to Social Network!" HorizontalOptions="Center" FontSize="Title" FontAttributes="Bold" Padding="0" Margin="0"/>
+            <Label Grid.Row="2" Text="Sign in to continue" HorizontalOptions="Center" FontSize="Subtitle"/>
 
-            <StackLayout
-                Grid.Row="3"
-                HorizontalOptions="FillAndExpand"
-                Orientation="Vertical">
-                <Frame
-                    Padding="0"
-                    BackgroundColor="Transparent"
-                    BorderColor="#3B32DC"
-                    CornerRadius="30"
-                    HorizontalOptions="FillAndExpand">
+            <StackLayout Grid.Row="3" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                <Frame BackgroundColor="Transparent" BorderColor="#3B32DC" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
                     <StackLayout Orientation="Horizontal">
-                        <Frame
-                            Margin="5"
-                            Padding="0"
-                            BackgroundColor="SkyBlue"
-                            CornerRadius="30"
-                            HeightRequest="40"
-                            WidthRequest="40">
-                            <Image
-                                Margin="0"
-                                Aspect="AspectFill"
-                                Source="https://e7.pngegg.com/pngimages/84/165/png-clipart-united-states-avatar-organization-information-user-avatar-service-computer-wallpaper-thumbnail.png" />
+                        <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                            <Image Source="https://e7.pngegg.com/pngimages/84/165/png-clipart-united-states-avatar-organization-information-user-avatar-service-computer-wallpaper-thumbnail.png" Aspect="AspectFill" Margin="0"/>
                         </Frame>
-                        <Entry
-                            x:Name="txtUserName"
-                            Margin="0,0,20,0"
-                            FontAttributes="Bold"
-                            HorizontalOptions="FillAndExpand"
-                            Placeholder="Username"
-                            Text="admin"
-                            TextColor="Black"
-                            VerticalOptions="Center" />
+                        <Entry x:Name="txtUserName"  Placeholder="Username" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
                     </StackLayout>
                 </Frame>
 
-                <Frame
-                    Margin="0,15,0,0"
-                    Padding="0"
-                    BackgroundColor="Transparent"
-                    BorderColor="#3B32DC"
-                    CornerRadius="30"
-                    HorizontalOptions="FillAndExpand">
+                <Frame BackgroundColor="Transparent" BorderColor="#3B32DC" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30" Margin="0, 15,0,0">
                     <StackLayout Orientation="Horizontal">
-                        <Frame
-                            Margin="5"
-                            Padding="0"
-                            BackgroundColor="SkyBlue"
-                            CornerRadius="30"
-                            HeightRequest="40"
-                            WidthRequest="40">
-                            <Image
-                                Margin="0"
-                                Aspect="AspectFill"
-                                Source="https://e7.pngegg.com/pngimages/669/574/png-clipart-computer-icons-password-others-miscellaneous-random-password-generator-thumbnail.png" />
+                        <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                            <Image Source="https://e7.pngegg.com/pngimages/669/574/png-clipart-computer-icons-password-others-miscellaneous-random-password-generator-thumbnail.png" Aspect="AspectFill" Margin="0"/>
                         </Frame>
-                        <Entry
-                            x:Name="txtPassword"
-                            Margin="0,0,20,0"
-                            FontAttributes="Bold"
-                            HorizontalOptions="FillAndExpand"
-                            IsPassword="True"
-                            Placeholder="Password"
-                            Text="admin123"
-                            TextColor="Black"
-                            VerticalOptions="Center" />
+                        <Entry x:Name="txtPassword" IsPassword="True" Placeholder="Password" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
                         <CheckBox />
                     </StackLayout>
                 </Frame>
 
-                <StackLayout
-                    Margin="0,10,0,0"
-                    Padding="0"
-                    Orientation="Horizontal">
-                    <CheckBox IsChecked="False" />
-                    <Label
-                        FontSize="Small"
-                        HorizontalTextAlignment="Center"
-                        Text="Remember Me"
-                        TextColor="DarkGray"
-                        VerticalTextAlignment="Center" />
-                    <Label
-                        FontAttributes="Bold"
-                        HorizontalOptions="CenterAndExpand"
-                        HorizontalTextAlignment="Center"
-                        Text="Forgor Password ?"
-                        TextColor="Red"
-                        TextDecorations="Underline"
-                        VerticalTextAlignment="Center" />
+                <StackLayout Orientation="Horizontal" Margin="0,10,0,0" Padding="0">
+                    <CheckBox IsChecked="False"/>
+                    <Label Text="Remember Me" TextColor="DarkGray" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                    <Label Text="Forgor Password ?" TextColor="Red" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextDecorations="Underline"/>
                 </StackLayout>
 
-                <Button
-                    x:Name="btnLogin"
-                    Margin="0,15,0,0"
-                    BackgroundColor="#0E47D0"
-                    Clicked="Login_Clicked"
-                    Command="{Binding LoginCommand}"
-                    CornerRadius="30"
-                    FontAttributes="Bold"
-                    Text="SIGN IN"
-                    TextColor="White"
-                    WidthRequest="200" />
+                <Button x:Name="btnLogin" Clicked="Login_Clicked" Text="SIGN IN" BackgroundColor="#0E47D0" TextColor="White" FontAttributes="Bold" CornerRadius="30" WidthRequest="200" Margin="0,15,0,0" Command="{Binding LoginCommand}"/>
 
-                <StackLayout
-                    Margin="0,60,0,0"
-                    Padding="0"
-                    HorizontalOptions="CenterAndExpand"
-                    Orientation="Horizontal">
-                    <Label
-                        FontSize="Small"
-                        Text="New user?"
-                        TextColor="DarkGray" />
-                    <Label
-                        FontAttributes="Bold"
-                        FontSize="Small"
-                        Text=" Sign Up"
-                        TextColor="#0E47D0"
-                        TextDecorations="Underline" />
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,60,0,0" Padding="0">
+                    <Label Text="New user?" TextColor="DarkGray" FontSize="Small"/>
+                    <Label Text=" Sign Up" TextColor="#0E47D0" FontAttributes="Bold" FontSize="Small" TextDecorations="Underline"/>
                 </StackLayout>
             </StackLayout>
         </Grid>

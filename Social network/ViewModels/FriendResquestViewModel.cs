@@ -98,5 +98,5 @@ namespace Social_network.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
-    
+
 }

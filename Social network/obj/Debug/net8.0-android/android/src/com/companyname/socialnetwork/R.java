@@ -11643,19 +11643,18 @@ public final class R {
     public static final int share_icon=0x7f070114;
     public static final int spider_cover=0x7f070115;
     public static final int spider_man=0x7f070116;
-    public static final int splash=0x7f070117;
-    public static final int stream_icon=0x7f070118;
-    public static final int test_level_drawable=0x7f070119;
-    public static final int thanos=0x7f07011a;
-    public static final int tony_stark=0x7f07011b;
-    public static final int tooltip_frame_dark=0x7f07011c;
-    public static final int tooltip_frame_light=0x7f07011d;
-    public static final int tym_tus_icon=0x7f07011e;
-    public static final int user_profile=0x7f07011f;
-    public static final int vision=0x7f070120;
-    public static final int wanda=0x7f070121;
-    public static final int watch_icon=0x7f070122;
-    public static final int wow_tus_icon=0x7f070123;
+    public static final int stream_icon=0x7f070117;
+    public static final int test_level_drawable=0x7f070118;
+    public static final int thanos=0x7f070119;
+    public static final int tony_stark=0x7f07011a;
+    public static final int tooltip_frame_dark=0x7f07011b;
+    public static final int tooltip_frame_light=0x7f07011c;
+    public static final int tym_tus_icon=0x7f07011d;
+    public static final int user_profile=0x7f07011e;
+    public static final int vision=0x7f07011f;
+    public static final int wanda=0x7f070120;
+    public static final int watch_icon=0x7f070121;
+    public static final int wow_tus_icon=0x7f070122;
   }
   public static final class id {
     public static final int ALT=0x7f080000;

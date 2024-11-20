@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage
-    x:Class="Social_network.Views.ListChatPage"
+<ContentPage x:Class="Social_network.Views.ListChatPage"
+             x:Name="PageInstance"
+    xmlns:helper="clr-namespace:Social_network.Helpers"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:ViewModels="clr-namespace:Social_network.ViewModels"
-    xmlns:Views="clr-namespace:Social_network.Views"
-    xmlns:helper="clr-namespace:Social_network.Helpers"
     xmlns:local="clr-namespace:Social_network.Converters"
-    x:Name="PageInstance"
-    Background="#13232f"
-    Shell.NavBarIsVisible="False">
+    xmlns:Views="clr-namespace:Social_network.Views"
+    Shell.NavBarIsVisible="False"
+    Background="#13232f">
 
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -29,38 +28,35 @@
                 <StackLayout Orientation="Horizontal">
                     <Image
                         HeightRequest="32"
-                        Source="{Binding MessageList[0].userSource.avatar_image.linkImage, FallbackValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png', TargetNullValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png'}"
+                        Source="{Binding MessageList[0].userSource.avatar_image.linkImage , FallbackValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png', 
+TargetNullValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png'}"
                         VerticalOptions="Center"
                         WidthRequest="32" />
                     <Label
                         Margin="10,0,0,0"
                         FontAttributes="None"
                         FontSize="15"
-                        Text="{Binding MessageList[0].userTarget.FullName, TargetNullValue='truong'}"
                         TextColor="White"
+                        Text="{Binding MessageList[0].userTarget.FullName, TargetNullValue='truong'}"
                         VerticalOptions="Center" />
                 </StackLayout>
                 <StackLayout
                     HorizontalOptions="End"
                     Orientation="Horizontal"
                     VerticalOptions="Center">
-                    <Button
-                        Padding="4.5"
-                        BackgroundColor="White"
+                    <Button BackgroundColor="White"
                         CornerRadius="45"
                         HeightRequest="32"
-                        WidthRequest="32">
+                        WidthRequest="32" Padding="4.5">
                         <Button.ImageSource>
                             <FileImageSource File="phone.png" />
                         </Button.ImageSource>
                     </Button>
 
-                    <Button
-                        Padding="4.5"
-                        BackgroundColor="White"
+                    <Button BackgroundColor="White"
                         CornerRadius="45"
                         HeightRequest="32"
-                        WidthRequest="32">
+                        WidthRequest="32" Padding="4.5">
                         <Button.ImageSource>
                             <FileImageSource File="edit.png" />
                         </Button.ImageSource>
@@ -81,42 +77,31 @@
                     <DataTemplate>
                         <VerticalStackLayout Margin="10" HorizontalOptions="FillAndExpand">
 
-                            <!--  Sent Message  -->
-                            <HorizontalStackLayout Margin="0,0,0,10" HorizontalOptions="End">
+                            <!-- Sent Message -->
+                            <HorizontalStackLayout HorizontalOptions="End" Margin="0,0,0,10">
                                 <HorizontalStackLayout.IsVisible>
                                     <MultiBinding Converter="{StaticResource UserIdConverter}">
                                         <Binding Path="userSource.id" />
                                         <Binding Path="CurrentUserId" Source="{RelativeSource AncestorType={x:Type ViewModels:MessageViewModels}}" />
                                     </MultiBinding>
                                 </HorizontalStackLayout.IsVisible>
-                                <Frame
-                                    Padding="10"
-                                    BackgroundColor="#e1ffc7"
-                                    CornerRadius="10"
-                                    MaximumWidthRequest="250">
-                                    <Label LineBreakMode="WordWrap" Text="{Binding content, TargetNullValue='chao'}" />
+                                <Frame BackgroundColor="#e1ffc7" CornerRadius="10" Padding="10" MaximumWidthRequest="250">
+                                    <Label Text="{Binding content, TargetNullValue='chao'}" LineBreakMode="WordWrap"/>
                                 </Frame>
                             </HorizontalStackLayout>
 
-                            <!--  Received Message  -->
-                            <HorizontalStackLayout Margin="0,0,0,10" HorizontalOptions="Start">
+                            <!-- Received Message -->
+                            <HorizontalStackLayout HorizontalOptions="Start" Margin="0,0,0,10">
                                 <HorizontalStackLayout.IsVisible>
                                     <MultiBinding Converter="{StaticResource UserIdConverter}">
                                         <Binding Path="userTarget.id" />
                                         <Binding Path="CurrentUserId" Source="{RelativeSource AncestorType={x:Type ViewModels:MessageViewModels}}" />
                                     </MultiBinding>
                                 </HorizontalStackLayout.IsVisible>
-                                <Image
-                                    Margin="0,0,10,0"
-                                    HeightRequest="30"
-                                    Source="{Binding userTarget.avatar_image.linkImage, FallbackValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png', TargetNullValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png'}"
-                                    WidthRequest="30" />
-                                <Frame
-                                    Padding="10"
-                                    BackgroundColor="#f1f1f1"
-                                    CornerRadius="10"
-                                    MaximumWidthRequest="250">
-                                    <Label LineBreakMode="WordWrap" Text="{Binding content}" />
+                                <Image Source="{Binding userTarget.avatar_image.linkImage, FallbackValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png', 
+TargetNullValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png'}" HeightRequest="30" WidthRequest="30" Margin="0,0,10,0" />
+                                <Frame BackgroundColor="#f1f1f1" CornerRadius="10" Padding="10" MaximumWidthRequest="250">
+                                    <Label Text="{Binding content}" LineBreakMode="WordWrap"/>
                                 </Frame>
                             </HorizontalStackLayout>
 
@@ -141,18 +126,16 @@
                         Placeholder="Aa"
                         Text="{Binding Message}"
                         TextColor="Black"
-                        VerticalOptions="Center"
-                        Visual="None" />
+                        VerticalOptions="Center" 
+                        Visual="None"/>
                 </Frame>
 
-                <Button
-                    Grid.Column="1"
-                    Padding="4.5"
-                    BackgroundColor="White"
-                    Command="{Binding SendMessageCommand}"
-                    CornerRadius="45"
-                    HeightRequest="32"
-                    WidthRequest="32">
+                <Button Grid.Column="1"
+                        BackgroundColor="White"
+                        Command="{Binding SendMessageCommand}"
+                        CornerRadius="45"
+                        HeightRequest="32"
+                        WidthRequest="32" Padding="4.5">
                     <Button.ImageSource>
                         <FileImageSource File="send.png" />
                     </Button.ImageSource>

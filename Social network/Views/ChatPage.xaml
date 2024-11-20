@@ -1,68 +1,49 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage
-    x:Class="Social_network.Views.ChatPage"
-    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:helper="clr-namespace:Social_network.Helpers"
-    BackgroundColor="{DynamicResource PrimaryColor}"
-    Shell.NavBarIsVisible="False">
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:helper="clr-namespace:Social_network.Helpers"
+             x:Class="Social_network.Views.ChatPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="{DynamicResource PrimaryColor}">
     <ContentPage.IconImageSource>
-        <FontImageSource
-            FontFamily="IconFontTypes"
-            Glyph="{x:Static helper:IconFontHelper.Message}"
-            Size="20" />
+        <FontImageSource FontFamily="IconFontTypes" Glyph="{x:Static helper:IconFontHelper.Message}"
+                         Size="20"/>
     </ContentPage.IconImageSource>
 
     <Grid Margin="10" RowSpacing="10">
         <Grid.RowDefinitions>
-            <RowDefinition Height="40" />
-            <RowDefinition Height="45" />
-            <RowDefinition Height="90" />
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="90"/>
             <RowDefinition />
         </Grid.RowDefinitions>
 
         <Grid>
             <StackLayout>
                 <StackLayout Orientation="Horizontal">
-                    <Image
-                        HeightRequest="42"
-                        Source="{Binding UserInfo.avatar_image.linkImage, FallbackValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png', TargetNullValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png'}"
-                        VerticalOptions="Center"
-                        WidthRequest="42" />
-                    <Label
-                        Margin="10,0,0,0"
-                        FontAttributes="Bold"
-                        FontSize="25"
-                        Text="Chats"
-                        VerticalOptions="Center" />
+                    <Image Source="{Binding UserInfo.avatar_image.linkImage, FallbackValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png', 
+TargetNullValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png'}" WidthRequest="42" 
+                   HeightRequest="42" VerticalOptions="Center"/>
+                    <Label Text="Chats" VerticalOptions="Center"
+                   FontSize="25" FontAttributes="Bold" Margin="10,0,0,0"/>
                 </StackLayout>
 
                 <StackLayout.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnChatTapped" />
+                    <TapGestureRecognizer Tapped="OnChatTapped"/>
                 </StackLayout.GestureRecognizers>
             </StackLayout>
 
-            <StackLayout
-                HorizontalOptions="End"
-                Orientation="Horizontal"
-                VerticalOptions="Center">
-                <Button
-                    Padding="5"
-                    BackgroundColor="#C0C0C0"
-                    CornerRadius="45"
-                    HeightRequest="42"
-                    WidthRequest="42">
+            <StackLayout Orientation="Horizontal" VerticalOptions="Center"
+                         HorizontalOptions="End">
+                <Button BackgroundColor="#C0C0C0" HeightRequest="42"
+        WidthRequest="42" CornerRadius="45" Padding="5">
                     <Button.ImageSource>
                         <FileImageSource File="add_icon.png" />
                     </Button.ImageSource>
                 </Button>
 
-                <Button
-                    Padding="5"
-                    BackgroundColor="#C0C0C0"
-                    CornerRadius="45"
-                    HeightRequest="42"
-                    WidthRequest="42">
+                <Button BackgroundColor="#C0C0C0" HeightRequest="42"
+WidthRequest="42" CornerRadius="45" Padding="5">
                     <Button.ImageSource>
                         <FileImageSource File="more_options_icon.png" />
                     </Button.ImageSource>
@@ -71,138 +52,92 @@
         </Grid>
 
         <Grid Grid.Row="1">
-            <Border
-                BackgroundColor="#808080"
-                HeightRequest="56"
-                Stroke="Red"
-                StrokeThickness="0">
+            <Border StrokeThickness="0" HeightRequest="56" BackgroundColor="#808080"
+                    Stroke="Red">
                 <Border.StrokeShape>
-                    <RoundRectangle CornerRadius="90" />
+                    <RoundRectangle CornerRadius="90"/>
                 </Border.StrokeShape>
 
-                <StackLayout
-                    HeightRequest="48"
-                    Orientation="Horizontal"
-                    VerticalOptions="Center">
+                <StackLayout Orientation="Horizontal" VerticalOptions="Center" HeightRequest="48">
                     <Image
-                        Margin="20,5,0,0"
+                        Source="search_icon.png"
                         BackgroundColor="Transparent"
                         HeightRequest="30"
-                        Source="search_icon.png"
-                        VerticalOptions="Center"
-                        WidthRequest="15" />
-
-                    <Label
-                        Margin="10,5,0,0"
-                        Text="Search"
-                        TextColor="Black"
+                        WidthRequest="15"
+                        Margin="20,5,0,0"
                         VerticalOptions="Center" />
+
+                    <Label Text="Search" TextColor="Black" VerticalOptions="Center" Margin="10,5,0,0"/>
                 </StackLayout>
             </Border>
         </Grid>
 
-        <StackLayout Grid.Row="2" Orientation="Horizontal">
+        <StackLayout Orientation="Horizontal" Grid.Row="2">
             <StackLayout WidthRequest="72">
-                <Button
-                    Margin="10,0,0,0"
-                    Padding="3"
-                    BackgroundColor="White"
-                    CornerRadius="45"
-                    HeightRequest="54"
-                    WidthRequest="54">
+                <Button BackgroundColor="White" HeightRequest="54"
+                        WidthRequest="54" CornerRadius="45" Margin="10,0,0,0" Padding="3">
                     <Button.ImageSource>
                         <FileImageSource File="phone.png" />
                     </Button.ImageSource>
                 </Button>
 
-                <Label
-                    Margin="0,5,0,0"
-                    FontSize="12"
-                    HorizontalOptions="Center"
-                    HorizontalTextAlignment="Center"
-                    Text="Create video call" />
+                <Label Text="Create video call" FontSize="12" Margin="0,5,0,0" 
+                       HorizontalTextAlignment="Center" HorizontalOptions="Center"/>
             </StackLayout>
 
-            <CollectionView
-                HorizontalScrollBarVisibility="Always"
+            <CollectionView ItemsSource="{Binding MessageList}" 
                 ItemsLayout="HorizontalList"
-                ItemsSource="{Binding MessageList}">
+                HorizontalScrollBarVisibility="Always">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout WidthRequest="72">
-                            <Grid
-                                HeightRequest="54"
-                                HorizontalOptions="Center"
-                                WidthRequest="54">
-                                <Image
-                                    HeightRequest="54"
-                                    Source="{Binding userTarget.avatar_image.linkImage, FallbackValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png', TargetNullValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png'}"
-                                    WidthRequest="54" />
-                                <Ellipse
-                                    Fill="Green"
-                                    HeightRequest="18"
-                                    HorizontalOptions="End"
-                                    Stroke="Black"
-                                    StrokeThickness="6"
-                                    VerticalOptions="End"
-                                    WidthRequest="18" />
+                            <Grid WidthRequest="54" HeightRequest="54" HorizontalOptions="Center">
+                                <Image Source="{Binding userTarget.avatar_image.linkImage, 
+FallbackValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png', 
+TargetNullValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png'}" 
+                           WidthRequest="54" HeightRequest="54"/>
+                                <Ellipse WidthRequest="18" HeightRequest="18" Fill="Green" Stroke="Black" StrokeThickness="6" 
+                             HorizontalOptions="End" VerticalOptions="End"/>
                             </Grid>
-                            <Label
-                                Margin="0,5,0,0"
-                                FontSize="12"
-                                HorizontalOptions="Center"
-                                HorizontalTextAlignment="Center"
-                                Text="{Binding userTarget.FullName, TargetNullValue='Unknown'}" />
+                            <Label Text="{Binding userTarget.FullName, 
+                              TargetNullValue='Unknown'}" 
+                       FontSize="12" Margin="0,5,0,0" HorizontalTextAlignment="Center" HorizontalOptions="Center"/>
                         </StackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-
+            
         </StackLayout>
 
         <ScrollView Grid.Row="3" HorizontalOptions="FillAndExpand">
             <StackLayout HorizontalOptions="FillAndExpand">
-                <CollectionView
-                    ItemsSource="{Binding MessageList}"
-                    SelectionChanged="OnSelectionChanged"
-                    SelectionMode="Single">
+                <CollectionView ItemsSource="{Binding MessageList}" 
+                SelectionMode="Single"
+                SelectionChanged="OnSelectionChanged">
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
-                            <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-                                <Grid
-                                    HeightRequest="64"
-                                    HorizontalOptions="Center"
-                                    WidthRequest="64">
-                                    <Image
-                                        HeightRequest="54"
-                                        Source="{Binding userTarget.avatar_image.linkImage, FallbackValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png', TargetNullValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png'}"
-                                        WidthRequest="54" />
-                                    <Ellipse
-                                        Fill="Green"
-                                        HeightRequest="18"
-                                        HorizontalOptions="End"
-                                        Stroke="Black"
-                                        StrokeThickness="6"
-                                        VerticalOptions="End"
-                                        WidthRequest="18" />
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                <Grid WidthRequest="64" HeightRequest="64" HorizontalOptions="Center">
+                                    <Image Source="{Binding userTarget.avatar_image.linkImage, 
+             FallbackValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png', 
+             TargetNullValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png'}" 
+         WidthRequest="54" HeightRequest="54"/>
+                                    <Ellipse WidthRequest="18" HeightRequest="18" Fill="Green"
+                     Stroke="Black" StrokeThickness="6" HorizontalOptions="End"
+                     VerticalOptions="End"/>
                                 </Grid>
 
                                 <StackLayout Margin="10,5,0,0" HorizontalOptions="StartAndExpand">
-                                    <Label
-                                        FontSize="17"
-                                        HorizontalOptions="Start"
-                                        HorizontalTextAlignment="Start"
-                                        Text="{Binding userTarget.FullName, TargetNullValue='Unknown'}"
-                                        VerticalOptions="Center" />
+                                    <Label Text="{Binding userTarget.FullName, 
+                                          TargetNullValue='Unknown'}"
+                           FontSize="17" 
+                           HorizontalTextAlignment="Start" 
+                           HorizontalOptions="Start" 
+                           VerticalOptions="Center"/>
 
-                                    <Label
-                                        FontSize="14"
-                                        HorizontalOptions="Start"
-                                        HorizontalTextAlignment="Start"
-                                        LineBreakMode="TailTruncation"
-                                        MaxLines="1"
-                                        Text="{Binding content, TargetNullValue='No content'}"
-                                        VerticalOptions="FillAndExpand" />
+                                    <Label Text="{Binding content, TargetNullValue='No content'}" FontSize="14"
+                    HorizontalTextAlignment="Start" HorizontalOptions="Start"
+                    VerticalOptions="FillAndExpand" LineBreakMode="TailTruncation" MaxLines="1"/>
 
                                 </StackLayout>
                             </StackLayout>
@@ -213,23 +148,10 @@
 
             </StackLayout>
         </ScrollView>
-        <!--  Tab bar  -->
-        <StackLayout
-            x:Name="TabBar"
-            BackgroundColor="LightGray"
-            IsVisible="False"
-            Orientation="Vertical"
-            WidthRequest="250">
-            <Button
-                Margin="10,10,10,10"
-                Clicked="OnSettingsClicked"
-                Text="Cài đặt"
-                WidthRequest="100" />
-            <Button
-                Margin="10,10,10,10"
-                Clicked="OnLogoutClicked"
-                Text="Đăng xuất"
-                WidthRequest="100" />
+        <!-- Tab bar -->
+        <StackLayout x:Name="TabBar" IsVisible="False" Orientation="Vertical" WidthRequest="250" BackgroundColor="LightGray">
+            <Button Text="Cài đặt" Clicked="OnSettingsClicked" WidthRequest="100" Margin="10, 10 ,10 ,10"/>
+            <Button Text="Đăng xuất" Clicked="OnLogoutClicked" WidthRequest="100" Margin="10, 10 ,10 ,10"/>
         </StackLayout>
     </Grid>
 </ContentPage>

@@ -51,15 +51,6 @@ namespace Social_network.ViewModels
             }
         }
         public PageInfo PageInfo { get; }
-        public async Task GetMeAsync()
-        {
-            // Fetch the messages from the service
-            var userme = await _userInfoService.GetUserInfo();
-            if (userme != null)
-            {
-                UserMe = userme; // Update the property with the fetched messages
-            }
-        }
         private async void SendLikeTapped(int postId)
         {
             // Gọi API like
@@ -100,7 +91,15 @@ namespace Social_network.ViewModels
         }
 
 
-        
+        public async Task GetMeAsync()
+        {
+            // Fetch the messages from the service
+            var userme = await _userInfoService.GetUserInfo();
+            if (userme != null)
+            {
+                UserMe = userme; // Update the property with the fetched messages
+            }
+        }
 
         public async Task GetPostAsync(PageInfo pageInfo)
         {
@@ -200,7 +199,6 @@ namespace Social_network.ViewModels
         }
         public async Task RemoveFriendAsync(long userTarget)
         {
-
             // Gửi yêu cầu thêm bạn
             var result = await _friendService.RemoveFriend(userTarget);
             if (result)
@@ -212,7 +210,7 @@ namespace Social_network.ViewModels
                 ErrorMessage = "Không thể huy kết bạn.";
             }
         }
-        public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler? PropertyChanged;
 
         protected virtual void OnPropertyChanged(string propertyName)
         {

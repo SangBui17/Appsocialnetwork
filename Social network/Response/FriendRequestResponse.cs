@@ -9,10 +9,7 @@ namespace Social_network.Response
 {
     internal class FriendRequestResponse
     {
-        
         [JsonProperty("user_info")]
-
         public UserInfoResponse user_info { get; set; }
     }
 }
-

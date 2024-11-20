@@ -7,12 +7,10 @@ using System.Threading.Tasks;
 
 namespace Social_network.Repository
 {
-    interface FriendResquestRepository
+    internal interface FriendResquestRepository
     {
         Task<bool> AddFriendResquest(long id);
         Task<bool> RemoveFriendRequest(long id);
         Task<List<FriendRequestResponse>> getAllFriendRequest();
-
-
     }
 }

@@ -80,5 +80,42 @@ namespace Social_network.ServicesImp
 
             return null; // Hoặc có thể trả về một danh sách rỗng nếu cần
         }
+
+        public async Task<UserInfoResponse> FindByUsername(string username)
+        {
+            var client = new HttpClient();
+            string url = $"http://10.0.2.2:2711/user/username/{username}"; // URL API lấy danh sách bạn bè
+            try
+            {
+                // Lấy token từ SecureStorage
+                var token = await SecureStorage.Default.GetAsync("access_token");
+                if (string.IsNullOrEmpty(token))
+                {
+                    throw new Exception("Token is missing");
+                }
+                // Thiết lập header Authorization cho yêu cầu HTTP
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+                // Gửi yêu cầu GET tới API
+                var response = await client.GetAsync(url);
+                // Kiểm tra phản hồi của API
+                if (response.IsSuccessStatusCode)
+                {
+                    // Đọc nội dung và giải mã JSON thành danh sách bạn bè
+                    string jsonResponse = await response.Content.ReadAsStringAsync();
+                    Debug.WriteLine($"search: {jsonResponse}");
+                    UserInfoResponse user = JsonConvert.DeserializeObject<UserInfoResponse>(jsonResponse);
+                    Console.WriteLine("search: " + user);
+                    return user;
+                }
+                // Nếu phản hồi không thành công, ném lỗi
+                throw new Exception($"Error fetching search user: {response.ReasonPhrase}");
+            }
+            catch (Exception ex)
+            {
+                // Xử lý ngoại lệ và ghi lại thông báo lỗi
+                Console.WriteLine($"Error in findByUsername: {ex.Message}");
+                return null;
+            }
+        }
     }
 }

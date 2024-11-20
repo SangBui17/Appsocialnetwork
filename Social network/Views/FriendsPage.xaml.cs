@@ -50,7 +50,7 @@ public partial class FriendsPage : ContentPage
         var collectionView = sender as CollectionView;
         collectionView.SelectedItem = null;
     }
-     private void OnButtonDeleteClicked(object sender, EventArgs e)
+    private void OnButtonDeleteClicked(object sender, EventArgs e)
     {
         // Lấy Button đã được nhấn
         if (sender is Button button && button.BindingContext is FriendResponse selectedMessage)

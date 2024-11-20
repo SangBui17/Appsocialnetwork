@@ -11,6 +11,7 @@ namespace Social_network.Repository
     {
         Task<UserInfoResponse> GetUserInfo();
         Task<UserInfoResponse> GetUserById(long id);
+        Task<UserInfoResponse> FindByUsername(string username);
     }
 
 }

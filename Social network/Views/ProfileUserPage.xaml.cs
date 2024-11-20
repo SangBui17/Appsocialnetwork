@@ -52,7 +52,7 @@ public partial class ProfileUserPage : ContentPage
         {
             Console.WriteLine("Không lấy được ID người dùng!");
         }
-        
+
     }
 
 
@@ -79,10 +79,11 @@ public partial class ProfileUserPage : ContentPage
             long userTarget = (long)userId;
             var varidMe = _viewmodel.GetMeAsync().Id;
             long idMe = (long)varidMe;
-            Console.WriteLine("Id me: "+ idMe );
+            Console.WriteLine("Id me: " + idMe);
+            Console.WriteLine("user target: " + userTarget);
             if (userTarget == idMe)
             {
-            Navigation.PushAsync(new ProfilePage());
+                Navigation.PushAsync(new ProfilePage());
             }
             else
             {

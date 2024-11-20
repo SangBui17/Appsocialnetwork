@@ -58,6 +58,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<None Remove="Resources\Images\accept_icon.png" />
+		<None Remove="Resources\Images\addfriend_icon.png" />
 		<None Remove="Resources\Images\add_icon.png" />
 		<None Remove="Resources\Images\add_icon1.png" />
 		<None Remove="Resources\Images\add_icon2.png" />
@@ -73,6 +75,7 @@
 		<None Remove="Resources\Images\home_icon1.png" />
 		<None Remove="Resources\Images\home_icon2.png" />
 		<None Remove="Resources\Images\hulk.png" />
+		<None Remove="Resources\Images\isfriend_icon.png" />
 		<None Remove="Resources\Images\like_icon.png" />
 		<None Remove="Resources\Images\like_icon1.png" />
 		<None Remove="Resources\Images\loki.png" />
@@ -85,6 +88,7 @@
 		<None Remove="Resources\Images\phone.png" />
 		<None Remove="Resources\Images\profile_icon.png" />
 		<None Remove="Resources\Images\profile_icon1.png" />
+		<None Remove="Resources\Images\reject_icon.png" />
 		<None Remove="Resources\Images\rocket.png" />
 		<None Remove="Resources\Images\root.png" />
 		<None Remove="Resources\Images\search_icon.png" />
@@ -121,6 +125,9 @@
 	  <Compile Update="Views\FriendsPage.xaml.cs">
 	    <DependentUpon>FriendsPage.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Views\SearchPage.xaml.cs">
+	    <DependentUpon>SearchPage.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Views\ProfileUserPage.xaml.cs">
 	    <DependentUpon>ProfileUserPage.xaml</DependentUpon>
 	  </Compile>
@@ -149,6 +156,9 @@
 		  <Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
 		<MauiXaml Update="Views\FriendsPage.xaml">
+		  <Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Views\SearchPage.xaml">
 		  <Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
 		<MauiXaml Update="Views\ProfileUserPage.xaml">

@@ -1,62 +1,56 @@
-
-<ContentPage
-    x:Class="Social_network.Views.AddPost"
-    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:Social_network.ViewModels"
-    Shell.NavBarIsVisible="False">
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Social_network.ViewModels"
+             x:Class="Social_network.Views.AddPost"
+             Shell.NavBarIsVisible="False">
     <ScrollView>
         <VerticalStackLayout Padding="10">
 
-            <!--  Top area with input field  -->
-            <Label
-                Margin="0,0,0,5"
-                FontAttributes="Bold"
-                Text="Bạn đang nghĩ gì?" />
-            <Editor
-                x:Name="PostInput"
-                HeightRequest="80"
-                Placeholder="Hôm nay"
-                Text="{Binding PostInput}" />
+            <!-- Top area with input field -->
+            <Label Text="Bạn đang nghĩ gì?" FontAttributes="Bold" Margin="0,0,0,5" />
+            <Editor x:Name="PostInput" Placeholder="Hôm nay" Text="{Binding PostInput}" HeightRequest="80" />
 
-            <!--  Image Gallery section  -->
-            <CollectionView
-                x:Name="ImageList"
+            <!-- Image Gallery section -->
+            <CollectionView x:Name="ImageList"
                 ItemsSource="{Binding ImageList}"
-                SelectionChanged="OnImagesSelected"
-                SelectionMode="Multiple">
+                SelectionMode="Multiple"
+                SelectionChanged="OnImagesSelected">
                 <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Vertical" Span="3" />
                 </CollectionView.ItemsLayout>
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Frame
-                            Margin="5"
-                            BorderColor="Gray"
-                            CornerRadius="8"
-                            HeightRequest="120"
-                            WidthRequest="100">
-                            <Image
-                                Aspect="AspectFill"
-                                HeightRequest="110"
-                                Source="{Binding linkImage}"
-                                WidthRequest="90" />
+                        <Frame WidthRequest="100" HeightRequest="120" BorderColor="Gray" CornerRadius="8" Margin="5">
+                            <Image Source="{Binding linkImage}" Aspect="AspectFill" WidthRequest="90" HeightRequest="110" />
                         </Frame>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
 
+            <CollectionView x:Name="SelectedImagesList"
+                ItemsSource="{Binding SelectedImageList}"
+                IsVisible="{Binding SelectedImageList.Count, Converter={StaticResource BoolConverter}}"
+                SelectionMode="None"
+                Margin="0,10,0,0">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Horizontal" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame WidthRequest="80" HeightRequest="80" BorderColor="Gray" CornerRadius="8" Margin="5">
+                            <Image Source="{Binding linkImage}" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" />
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
 
-            <HorizontalStackLayout
-                Margin="0,20,0,0"
-                HorizontalOptions="Center"
-                VerticalOptions="End">
-                <Picker
-                    x:Name="ShareOptionsPicker"
-                    Title="Chọn quyền riêng tư"
-                    HorizontalOptions="FillAndExpand"
-                    SelectedIndexChanged="OnPrivacyOptionChanged"
-                    WidthRequest="200">
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="End" Margin="0,20,0,0">
+                <Picker x:Name="ShareOptionsPicker"
+        Title="Chọn quyền riêng tư"
+        HorizontalOptions="FillAndExpand"
+        WidthRequest="200"
+        SelectedIndexChanged="OnPrivacyOptionChanged">
                     <Picker.ItemsSource>
                         <x:Array Type="{x:Type x:String}">
                             <x:String>Công khai</x:String>
@@ -67,15 +61,9 @@
                 </Picker>
             </HorizontalStackLayout>
 
-            <!--  Action buttons (like adding images, tagging, etc.)  -->
-            <HorizontalStackLayout
-                Margin="0,20,0,0"
-                HorizontalOptions="Center"
-                Spacing="20">
-                <Button
-                    Command="{Binding SendPostCommand}"
-                    Text="Đăng"
-                    WidthRequest="80" />
+            <!-- Action buttons (like adding images, tagging, etc.) -->
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="20" Margin="0,20,0,0">
+                <Button Text="Đăng" Command="{Binding SendPostCommand}" WidthRequest="80" />
             </HorizontalStackLayout>
 
         </VerticalStackLayout>

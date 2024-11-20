@@ -15,7 +15,7 @@ namespace Social_network.request
         public int privacy { get; set; }
 
         [JsonProperty("images")]
-        public List<long> ImageIds { get; set; } = new List<long>();
+        public List<long> images { get; set; } = new List<long>();
 
     }
 }
