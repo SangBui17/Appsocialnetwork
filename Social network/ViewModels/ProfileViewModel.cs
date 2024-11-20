@@ -51,6 +51,15 @@ namespace Social_network.ViewModels
             }
         }
         public PageInfo PageInfo { get; }
+        public async Task GetMeAsync()
+        {
+            // Fetch the messages from the service
+            var userme = await _userInfoService.GetUserInfo();
+            if (userme != null)
+            {
+                UserMe = userme; // Update the property with the fetched messages
+            }
+        }
         private async void SendLikeTapped(int postId)
         {
             // Gọi API like
@@ -91,15 +100,7 @@ namespace Social_network.ViewModels
         }
 
 
-        public async Task GetMeAsync()
-        {
-            // Fetch the messages from the service
-            var userme = await _userInfoService.GetUserInfo();
-            if (userme != null)
-            {
-                UserMe = userme; // Update the property with the fetched messages
-            }
-        }
+        
 
         public async Task GetPostAsync(PageInfo pageInfo)
         {

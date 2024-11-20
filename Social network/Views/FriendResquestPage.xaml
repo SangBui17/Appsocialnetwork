@@ -14,7 +14,7 @@
                 Text="Lời mời kết bạn" />
         </Frame>
 
-        <CollectionView ItemsSource="{Binding Friends}">
+        <CollectionView ItemsSource="{Binding FriendsResquest}">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Grid Margin="10,10,0,0" ColumnDefinitions="Auto,*,Auto,Auto">

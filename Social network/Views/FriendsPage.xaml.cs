@@ -1,4 +1,5 @@
-﻿using Social_network.Response;
+﻿using Social_network.Models;
+using Social_network.Response;
 using Social_network.ViewModels;
 
 namespace Social_network.Views;
@@ -49,4 +50,21 @@ public partial class FriendsPage : ContentPage
         var collectionView = sender as CollectionView;
         collectionView.SelectedItem = null;
     }
+     private void OnButtonDeleteClicked(object sender, EventArgs e)
+    {
+        // Lấy Button đã được nhấn
+        if (sender is Button button && button.BindingContext is FriendResponse selectedMessage)
+        {
+            // Lấy User ID từ BindingContext
+            var userId = selectedMessage.user_info.id;
+            long userTarget = (long)userId;
+            Console.WriteLine($"Deleting Friend ID: {userTarget}");
+
+            // Gọi hàm xóa bạn bè
+            _viewModelFriend.RemoveFriendAsync(userTarget);
+
+            Console.WriteLine("Friend deleted successfully.");
+        }
+    }
+
 }

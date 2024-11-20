@@ -5,19 +5,19 @@ namespace Social_network.Views;
 
 public partial class FriendResquestPage : ContentPage
 {
-    private readonly FriendViewModel _viewModelFriend;
+    private readonly FriendResquestViewModel _viewModelFriendResquest;
 
     public FriendResquestPage()
     {
         InitializeComponent();
-        _viewModelFriend = new FriendViewModel();
-        BindingContext = _viewModelFriend;
+        _viewModelFriendResquest = new FriendResquestViewModel();
+        BindingContext = _viewModelFriendResquest;
     }
 
     protected override async void OnAppearing()
     {
         base.OnAppearing();
-        await _viewModelFriend.GetFriendsAsync(); // Tải danh sách loi moi ket ban khi trang hiển thị
+        await _viewModelFriendResquest.GetFriendResquestAsync(); // Tải danh sách loi moi ket ban khi trang hiển thị
     }
     private async void OnAcceptButtonClicked(object sender, EventArgs e)
     {

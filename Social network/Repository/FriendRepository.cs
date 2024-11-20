@@ -7,6 +7,8 @@ namespace Social_network.Repository
     interface FriendRepository
     {
         Task<List<FriendResponse>> GetAllFriends();
-        Task<List<FriendResponse>> GetAllFriendId(long id);
+        Task<List<FriendResponse>> GetAllFriendId(long userId);
+        Task<bool> RemoveFriend(long userId);
+        Task<bool> AddFriend(long userId);
     }
 }

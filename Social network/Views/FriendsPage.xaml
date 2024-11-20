@@ -51,6 +51,7 @@
                         <Button
                             Grid.Column="2"
                             BackgroundColor="Transparent"
+                            Clicked="OnButtonDeleteClicked"
                             CornerRadius="10"
                             FontAttributes="Bold"
                             HeightRequest="40"
@@ -64,6 +65,7 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
+
 
 
     </VerticalStackLayout>

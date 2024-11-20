@@ -2227,3 +2227,4 @@ D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-a
 D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
 D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
+D:\BuiCongSang\Cross-platform\Appsocialnetwork\Social network\obj\Debug\net8.0-android\Social network.sourcelink.json

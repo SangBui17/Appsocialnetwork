@@ -88,7 +88,7 @@ namespace Social_network.ServicesImp
         }
 
         // Thêm bạn mới
-        public async Task<bool> AddFriendAsync(string userId)
+        public async Task<bool> AddFriend(long userId)
         {
             string url = $"http://10.0.2.2:2711/friends/add/{userId}";  // URL API thêm bạn
 
@@ -113,13 +113,13 @@ namespace Social_network.ServicesImp
             catch (Exception ex)
             {
                 // Xử lý ngoại lệ và ghi lại thông báo lỗi
-                Console.WriteLine($"Error in AddFriendAsync: {ex.Message}");
+                Console.WriteLine($"Error in AddFriend: {ex.Message}");
                 return false;
             }
         }
 
         // Xóa bạn
-        public async Task<bool> RemoveFriendAsync(string userId)
+        public async Task<bool> RemoveFriend(long userId)
         {
             string url = $"http://10.0.2.2:2711/friends/remove/{userId}";  // URL API xóa bạn
 
@@ -136,7 +136,7 @@ namespace Social_network.ServicesImp
                 _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
                 // Gửi yêu cầu DELETE để xóa bạn
-                var response = await _httpClient.DeleteAsync(url);
+                var response = await _httpClient.GetAsync(url);
 
                 // Kiểm tra phản hồi
                 return response.IsSuccessStatusCode;
@@ -144,7 +144,7 @@ namespace Social_network.ServicesImp
             catch (Exception ex)
             {
                 // Xử lý ngoại lệ và ghi lại thông báo lỗi
-                Console.WriteLine($"Error in RemoveFriendAsync: {ex.Message}");
+                Console.WriteLine($"Error in RemoveFriend: {ex.Message}");
                 return false;
             }
         }

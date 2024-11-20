@@ -37,7 +37,7 @@ namespace Social_network.ViewModels
         {
             _friendResquestService = new FriendResquestService(new HttpClient());
         }
-        public async Task GetFriendsAsync()
+        public async Task GetFriendResquestAsync()
         {
             try
             {

@@ -8,15 +8,13 @@ namespace Social_network.Views;
 public partial class ProfileUserPage : ContentPage
 {
 
-    private ProfileViewModel _viewmodel;
-    private Response.UserInfoResponse _viewId;
+    private readonly ProfileViewModel _viewmodel;
     private long _userTarget;
 
     public ProfileUserPage(long userid)
     {
         InitializeComponent();
         _viewmodel = new ProfileViewModel();
-        _viewId = new Response.UserInfoResponse();
         BindingContext = _viewmodel;
         _userTarget = userid;
 
@@ -58,11 +56,10 @@ public partial class ProfileUserPage : ContentPage
             // Lấy User ID từ đối tượng
             var userId = selectedMessage.user_info.id;
             long userTarget = (long)userId;
-            Console.WriteLine($"User ID: {userId}");
-            Console.WriteLine($"ID: {_viewId.id}");
-            Console.WriteLine($"ID target: {_userTarget}");
-
-            if(userId == _viewId.id)
+            var varidMe = _viewmodel.GetMeAsync().Id;
+            long idMe = (long)varidMe;
+            Console.WriteLine("Id me: "+ idMe );
+            if (userTarget == idMe)
             {
             Navigation.PushAsync(new ProfilePage());
             }
