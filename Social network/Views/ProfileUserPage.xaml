@@ -9,35 +9,6 @@
         <VerticalStackLayout>
             <!--  Container 1  -->
             <VerticalStackLayout Padding="10" BackgroundColor="White">
-                <!--  Header with Back and Search Icons  -->
-                <HorizontalStackLayout
-                    Margin="0,0,0,10"
-                    Spacing="10"
-                    VerticalOptions="Center">
-                    <ImageButton
-                        BackgroundColor="Transparent"
-                        HeightRequest="30"
-                        Source="back_icon.png"
-                        WidthRequest="15" />
-                    <Frame
-                        Padding="0"
-                        BorderColor="Gray"
-                        CornerRadius="15"
-                        VerticalOptions="Center">
-                        <Entry
-                            Margin="10,0"
-                            HeightRequest="35"
-                            Placeholder=""
-                            WidthRequest="250" />
-                    </Frame>
-
-                    <ImageButton
-                        BackgroundColor="Transparent"
-                        HeightRequest="30"
-                        Source="search_icon.png"
-                        WidthRequest="15" />
-                </HorizontalStackLayout>
-
                 <!--  Profile Image and Group Photo  -->
                 <Grid>
                     <Image
@@ -99,22 +70,25 @@
                     </Button>
                     <Button
                         BackgroundColor="#0084FF"
+                        Clicked="OnMessageButtonClicked"
                         FontAttributes="Bold"
                         HeightRequest="40"
                         Text="Nhắn tin"
-                        Clicked="OnMessageButtonClicked"
                         WidthRequest="200">
                         <Button.ImageSource>
                             <FileImageSource File="messenger_icon.png" />
                         </Button.ImageSource>
                     </Button>
                     <Button
+                        x:Name="OptionButton"
                         BackgroundColor="LightGray"
+                        Clicked="OptionButton_Clicked"
+                        CommandParameter="Binding Friends.user_info.id"
                         CornerRadius="10"
                         FontAttributes="Bold"
                         HeightRequest="40"
                         TextColor="Black"
-                        WidthRequest="45">
+                        WidthRequest="40">
                         <Button.ImageSource>
                             <FileImageSource File="option_icon.png" />
                         </Button.ImageSource>

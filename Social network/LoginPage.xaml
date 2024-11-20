@@ -86,7 +86,7 @@
                             FontAttributes="Bold"
                             HorizontalOptions="FillAndExpand"
                             Placeholder="Username"
-                            Text="truong"
+                            Text="admin"
                             TextColor="Black"
                             VerticalOptions="Center" />
                     </StackLayout>
@@ -119,7 +119,7 @@
                             HorizontalOptions="FillAndExpand"
                             IsPassword="True"
                             Placeholder="Password"
-                            Text="truong123"
+                            Text="admin123"
                             TextColor="Black"
                             VerticalOptions="Center" />
                         <CheckBox />

@@ -12,7 +12,7 @@ namespace Social_network.Response
         
         [JsonProperty("user_info")]
 
-        public UserInfoResponse userInfoResponse { get; set; }
+        public UserInfoResponse user_info { get; set; }
     }
 }
 

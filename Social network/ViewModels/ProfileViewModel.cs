@@ -177,6 +177,41 @@ namespace Social_network.ViewModels
                 ErrorMessage = $"Lỗi viewmodel: {ex.Message}";
             }
         }
+
+        public async Task AddFriendAsync(long id)
+        {
+            try
+            {
+                // Gửi yêu cầu thêm bạn
+                var result = await _friendService.AddFriend(id);
+                if (result)
+                {
+                    ErrorMessage = "Đã gửi lời mời kết bạn thành công.";
+                }
+                else
+                {
+                    ErrorMessage = "Không thể gửi lời mời kết bạn.";
+                }
+            }
+            catch (Exception ex)
+            {
+                ErrorMessage = $"Lỗi viewmodel: {ex.Message}";
+            }
+        }
+        public async Task RemoveFriendAsync(long userTarget)
+        {
+
+            // Gửi yêu cầu thêm bạn
+            var result = await _friendService.RemoveFriend(userTarget);
+            if (result)
+            {
+                ErrorMessage = "Huy kết bạn thành công.";
+            }
+            else
+            {
+                ErrorMessage = "Không thể huy kết bạn.";
+            }
+        }
         public event PropertyChangedEventHandler PropertyChanged;
 
         protected virtual void OnPropertyChanged(string propertyName)

@@ -9,8 +9,8 @@ namespace Social_network.Repository
 {
     interface FriendResquestRepository
     {
-        Task<bool> addFriendResquest(long id);
-        Task<bool> removeFriendRequest(long id);
+        Task<bool> AddFriendResquest(long id);
+        Task<bool> RemoveFriendRequest(long id);
         Task<List<FriendRequestResponse>> getAllFriendRequest();
 
 

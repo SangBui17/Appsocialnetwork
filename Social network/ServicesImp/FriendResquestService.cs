@@ -53,7 +53,7 @@ namespace Social_network.ServicesImp
                 return null;
             }
         }
-        public async Task<bool> addFriendResquest(long id)
+        public async Task<bool> AddFriendResquest(long id)
         {
             string url = $"http://10.0.2.2:2711/friendrequest/add/{id}";  // URL API thêm bạn
 
@@ -84,7 +84,7 @@ namespace Social_network.ServicesImp
                 return false;
             }
         }
-        public async Task<bool> removeFriendRequest(long id)
+        public async Task<bool> RemoveFriendRequest(long id)
         {
             string url = $"http://10.0.2.2:2711/friendrequest/remove/{id}";  // URL API xóa loi moi ket bạn
 

@@ -47,7 +47,7 @@
                             Text="{Binding user_info.FullName}"
                             VerticalOptions="Center" />
 
-                        <!--  Nút option  -->
+                        <!--  Nút reject  -->
                         <Button
                             Grid.Column="2"
                             BackgroundColor="Transparent"

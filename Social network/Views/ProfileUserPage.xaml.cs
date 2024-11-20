@@ -36,6 +36,26 @@ public partial class ProfileUserPage : ContentPage
     {
         await Navigation.PushAsync(new FriendUserPage(_userTarget));
     }
+    private async void OptionButton_Clicked(object sender, EventArgs e)
+    {
+        // Hiển thị menu lựa chọn
+        string action = await DisplayActionSheet(null, null, null, "Thêm bạn bè");
+
+        // Thực hiện ngay nếu chọn "Thêm bạn bè"
+        if (action == "Thêm bạn bè")
+        {
+            _viewmodel.AddFriendAsync(_userTarget);
+            Console.WriteLine("them ban thanh cong!");
+
+        }
+        else
+        {
+            Console.WriteLine("Không lấy được ID người dùng!");
+        }
+        
+    }
+
+
     protected override async void OnAppearing()
     {
         base.OnAppearing();
@@ -47,6 +67,7 @@ public partial class ProfileUserPage : ContentPage
         };
         await _viewmodel.GetPostIdAsync(pageInfo, _userTarget);
     }
+
     private void OnSelectionUserIdChanged(object sender, SelectionChangedEventArgs e)
     {
         // Lấy đối tượng được chọn
