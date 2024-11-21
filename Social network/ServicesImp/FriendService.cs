@@ -105,7 +105,7 @@ namespace Social_network.ServicesImp
                 _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
                 // Gửi yêu cầu POST để thêm bạn mới
-                var response = await _httpClient.PostAsync(url, null);
+                var response = await _httpClient.GetAsync(url);
 
                 // Kiểm tra phản hồi
                 return response.IsSuccessStatusCode;

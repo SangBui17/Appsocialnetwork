@@ -71,7 +71,7 @@ namespace Social_network.ServicesImp
                 requestMessage.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
                 // Gửi yêu cầu GET
-                var response = await _httpClient.SendAsync(requestMessage);
+                var response = await _httpClient.GetAsync(url);
 
                 // Trả về nội dung phản hồi
                 return true;
@@ -101,7 +101,7 @@ namespace Social_network.ServicesImp
                 _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
                 // Gửi yêu cầu DELETE để xóa loi moi ket bạn
-                var response = await _httpClient.DeleteAsync(url);
+                var response = await _httpClient.GetAsync(url);
 
                 // Kiểm tra phản hồi
                 return response.IsSuccessStatusCode;

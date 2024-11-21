@@ -32,8 +32,18 @@ namespace Social_network.Views
                 // Lấy User ID từ đối tượng
                 var userId = selectedMessage.user_info.id;
                 long userTarget = (long)userId;
-                Console.WriteLine($"User ID: {userId}");
-                Navigation.PushAsync(new ProfileUserPage(userTarget));
+                var varidMe = _viewModelFriend.GetMeAsync().Id;
+                long idMe = (long)varidMe;
+                Console.WriteLine("Id me: " + idMe);
+                Console.WriteLine("user target: " + userTarget);
+                if (userTarget == idMe)
+                {
+                    Navigation.PushAsync(new ProfilePage());
+                }
+                else
+                {
+                    Navigation.PushAsync(new ProfileUserPage(userTarget));
+                }
                 Console.WriteLine("SelectionChanged triggered");
 
             }

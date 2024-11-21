@@ -21,10 +21,13 @@ public partial class ProfilePage : ContentPage
 
     private async void LoadUserData()
     {
+        // tai len du lieu ca nhan va ban be
         await _viewmodel.GetMeAsync();
         await _viewmodel.GetFriendAsync();
 
     }
+    
+    // xem danh sach tat ca ban be
     private async void OnFriendsButtonClicked(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new FriendsPage());
@@ -40,6 +43,13 @@ public partial class ProfilePage : ContentPage
         };
         await _viewmodel.GetPostAsync(pageInfo);
     }
+    // them bai viet
+    private async void OnAddPostClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new AddPost());
+    }
+
+    // truy cap trang ca nhan ban be
     private void OnSelectionUserIdChanged(object sender, SelectionChangedEventArgs e)
     {
         // Lấy đối tượng được chọn

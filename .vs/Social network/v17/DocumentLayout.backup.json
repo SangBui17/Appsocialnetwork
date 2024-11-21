@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\BuiCongSang\\Cross-platform\\Social network\\",
+  "WorkspaceRootPath": "D:\\BuiCongSang\\Cross-platform\\Appsocialnetwork\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A3F200D-0464-4B8C-B942-46C9AD6A3755}|Social network\\Social network.csproj|d:\\buicongsang\\cross-platform\\social network\\social network\\views\\profileuserpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A3F200D-0464-4B8C-B942-46C9AD6A3755}|Social network\\Social network.csproj|solutionrelative:social network\\views\\profileuserpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A3F200D-0464-4B8C-B942-46C9AD6A3755}|Social network\\Social network.csproj|d:\\buicongsang\\cross-platform\\appsocialnetwork\\social network\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A3F200D-0464-4B8C-B942-46C9AD6A3755}|Social network\\Social network.csproj|solutionrelative:social network\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A3F200D-0464-4B8C-B942-46C9AD6A3755}|Social network\\Social network.csproj|d:\\buicongsang\\cross-platform\\social network\\social network\\views\\profileuserpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9A3F200D-0464-4B8C-B942-46C9AD6A3755}|Social network\\Social network.csproj|solutionrelative:social network\\views\\profileuserpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9A3F200D-0464-4B8C-B942-46C9AD6A3755}|Social network\\Social network.csproj|d:\\buicongsang\\cross-platform\\appsocialnetwork\\social network\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9A3F200D-0464-4B8C-B942-46C9AD6A3755}|Social network\\Social network.csproj|solutionrelative:social network\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A3F200D-0464-4B8C-B942-46C9AD6A3755}|Social network\\Social network.csproj|d:\\buicongsang\\cross-platform\\social network\\social network\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{9A3F200D-0464-4B8C-B942-46C9AD6A3755}|Social network\\Social network.csproj|d:\\buicongsang\\cross-platform\\appsocialnetwork\\social network\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9A3F200D-0464-4B8C-B942-46C9AD6A3755}|Social network\\Social network.csproj|solutionrelative:social network\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3F200D-0464-4B8C-B942-46C9AD6A3755}|Social network\\Social network.csproj|d:\\buicongsang\\cross-platform\\appsocialnetwork\\social network\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A3F200D-0464-4B8C-B942-46C9AD6A3755}|Social network\\Social network.csproj|solutionrelative:social network\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,44 +39,63 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProfileUserPage.xaml.cs",
-              "DocumentMoniker": "D:\\BuiCongSang\\Cross-platform\\Social network\\Social network\\Views\\ProfileUserPage.xaml.cs",
-              "RelativeDocumentMoniker": "Social network\\Views\\ProfileUserPage.xaml.cs",
-              "ToolTip": "D:\\BuiCongSang\\Cross-platform\\Social network\\Social network\\Views\\ProfileUserPage.xaml.cs*",
-              "RelativeToolTip": "Social network\\Views\\ProfileUserPage.xaml.cs*",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAwwE4AAAArAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "D:\\BuiCongSang\\Cross-platform\\Appsocialnetwork\\Social network\\Views\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "Social network\\Views\\HomePage.xaml.cs",
+              "ToolTip": "D:\\BuiCongSang\\Cross-platform\\Appsocialnetwork\\Social network\\Views\\HomePage.xaml.cs",
+              "RelativeToolTip": "Social network\\Views\\HomePage.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T18:56:39.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProfileUserPage.xaml",
-              "DocumentMoniker": "D:\\BuiCongSang\\Cross-platform\\Social network\\Social network\\Views\\ProfileUserPage.xaml",
-              "RelativeDocumentMoniker": "Social network\\Views\\ProfileUserPage.xaml",
-              "ToolTip": "D:\\BuiCongSang\\Cross-platform\\Social network\\Social network\\Views\\ProfileUserPage.xaml*",
-              "RelativeToolTip": "Social network\\Views\\ProfileUserPage.xaml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-20T18:56:33.084Z",
+              "WhenOpened": "2024-11-21T02:23:14.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "HomePage.xaml",
-              "DocumentMoniker": "D:\\BuiCongSang\\Cross-platform\\Social network\\Social network\\Views\\HomePage.xaml",
+              "DocumentMoniker": "D:\\BuiCongSang\\Cross-platform\\Appsocialnetwork\\Social network\\Views\\HomePage.xaml",
               "RelativeDocumentMoniker": "Social network\\Views\\HomePage.xaml",
-              "ToolTip": "D:\\BuiCongSang\\Cross-platform\\Social network\\Social network\\Views\\HomePage.xaml",
+              "ToolTip": "D:\\BuiCongSang\\Cross-platform\\Appsocialnetwork\\Social network\\Views\\HomePage.xaml",
               "RelativeToolTip": "Social network\\Views\\HomePage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-20T17:48:52.11Z",
+              "WhenOpened": "2024-11-21T02:23:12.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "D:\\BuiCongSang\\Cross-platform\\Appsocialnetwork\\Social network\\Views\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "Social network\\Views\\ProfilePage.xaml",
+              "ToolTip": "D:\\BuiCongSang\\Cross-platform\\Appsocialnetwork\\Social network\\Views\\ProfilePage.xaml",
+              "RelativeToolTip": "Social network\\Views\\ProfilePage.xaml",
+              "ViewState": "AgIAACoAAAAAAAAAAAASwDsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T02:23:06.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "D:\\BuiCongSang\\Cross-platform\\Appsocialnetwork\\Social network\\Views\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "Social network\\Views\\ProfilePage.xaml.cs",
+              "ToolTip": "D:\\BuiCongSang\\Cross-platform\\Appsocialnetwork\\Social network\\Views\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "Social network\\Views\\ProfilePage.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwC8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T02:23:05.274Z",
               "EditorCaption": ""
             }
           ]

@@ -35,25 +35,33 @@ public partial class ProfileUserPage : ContentPage
     private async void OnFriendsButtonClicked(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new FriendUserPage(_userTarget));
+        Console.WriteLine("usertarget" + _userTarget);
+
     }
     private async void OptionButton_Clicked(object sender, EventArgs e)
     {
         // Hiển thị menu lựa chọn
-        string action = await DisplayActionSheet(null, null, null, "Thêm bạn bè");
+        string action = await DisplayActionSheet(null, null, null, "Thêm bạn bè", "Xóa bạn");
 
-        // Thực hiện ngay nếu chọn "Thêm bạn bè"
+        // Xử lý các lựa chọn
         if (action == "Thêm bạn bè")
         {
-            _viewmodel.AddFriendAsync(_userTarget);
-            Console.WriteLine("them ban thanh cong!");
-
+            await _viewmodel.AddFriendAsync(_userTarget); // Đảm bảo sử dụng await nếu phương thức là async
+            Console.WriteLine("usertarget: " + _userTarget);
+            Console.WriteLine("Thêm bạn thành công!");
+        }
+        else if (action == "Xóa bạn")
+        {
+            await _viewmodel.RemoveFriendAsync(_userTarget); // Giả sử bạn có phương thức RemoveFriendAsync
+            Console.WriteLine("usertarget: " + _userTarget);
+            Console.WriteLine("Xóa bạn thành công!");
         }
         else
         {
-            Console.WriteLine("Không lấy được ID người dùng!");
+            Console.WriteLine("Không có hành động nào được thực hiện!");
         }
-
     }
+
 
 
     protected override async void OnAppearing()

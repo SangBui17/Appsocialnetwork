@@ -59,9 +59,10 @@
                     Spacing="10">
                     <Button
                         BackgroundColor="#0A65FE"
+                        Clicked="OnAddPostClicked"
                         FontAttributes="Bold"
                         HeightRequest="40"
-                        Text="Thêm vào tin"
+                        Text="Thêm bài viết"
                         WidthRequest="370">
                         <Button.ImageSource>
                             <FileImageSource File="add2_icon.png" />

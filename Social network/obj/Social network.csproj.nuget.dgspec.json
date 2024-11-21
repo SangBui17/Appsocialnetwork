@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BuiCongSang\\Cross-platform\\Social network\\Social network\\Social network.csproj": {}
+    "D:\\BuiCongSang\\Cross-platform\\Appsocialnetwork\\Social network\\Social network.csproj": {}
   },
   "projects": {
-    "D:\\BuiCongSang\\Cross-platform\\Social network\\Social network\\Social network.csproj": {
+    "D:\\BuiCongSang\\Cross-platform\\Appsocialnetwork\\Social network\\Social network.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BuiCongSang\\Cross-platform\\Social network\\Social network\\Social network.csproj",
+        "projectUniqueName": "D:\\BuiCongSang\\Cross-platform\\Appsocialnetwork\\Social network\\Social network.csproj",
         "projectName": "Social network",
-        "projectPath": "D:\\BuiCongSang\\Cross-platform\\Social network\\Social network\\Social network.csproj",
+        "projectPath": "D:\\BuiCongSang\\Cross-platform\\Appsocialnetwork\\Social network\\Social network.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\BuiCongSang\\Cross-platform\\Social network\\Social network\\obj\\",
+        "outputPath": "D:\\BuiCongSang\\Cross-platform\\Appsocialnetwork\\Social network\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

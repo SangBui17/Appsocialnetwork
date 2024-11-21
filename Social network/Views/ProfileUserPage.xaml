@@ -84,7 +84,7 @@
                         x:Name="OptionButton"
                         BackgroundColor="LightGray"
                         Clicked="OptionButton_Clicked"
-                        CommandParameter="Binding Friends.user_info.id"
+                        CommandParameter="Binding UserMe.id"
                         CornerRadius="10"
                         FontAttributes="Bold"
                         HeightRequest="40"
