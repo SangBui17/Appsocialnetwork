@@ -214,37 +214,32 @@
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <HorizontalStackLayout HorizontalOptions="Center">
-                    <VerticalStackLayout Padding="10">
-                        <!--  CollectionView for Friends  -->
-                        <CollectionView
-                            HorizontalOptions="Start"
-                            ItemsSource="{Binding Friends}"
-                            SelectionChanged="OnSelectionUserIdChanged"
-                            SelectionMode="Single">
-                            <CollectionView.ItemsLayout>
-                                <!--  Grid layout for items  -->
-                                <GridItemsLayout Orientation="Vertical" Span="3" />
-                            </CollectionView.ItemsLayout>
-                            <CollectionView.ItemTemplate>
-                                <DataTemplate>
-                                    <StackLayout Margin="10" Orientation="Vertical">
-                                        <Grid HeightRequest="100" WidthRequest="100">
-                                            <Image Aspect="AspectFill" Source="{Binding user_info.avatar_image.linkImage, FallbackValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png', TargetNullValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png'}" />
-                                        </Grid>
-                                        <Label
-                                            Margin="0,5,0,0"
-                                            FontAttributes="Bold"
-                                            FontSize="13"
-                                            HorizontalOptions="Center"
-                                            Text="{Binding user_info.FullName}" />
+                <CollectionView
+                    HorizontalOptions="Start"
+                    ItemsSource="{Binding LimitedFriends}"
+                    SelectionChanged="OnSelectionUserIdChanged"
+                    SelectionMode="Single">
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical" Span="3" />
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Margin="10" Orientation="Vertical">
+                                <Grid HeightRequest="100" WidthRequest="100">
+                                    <Image Aspect="AspectFill" Source="{Binding user_info.avatar_image.linkImage, FallbackValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png', TargetNullValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png'}" />
+                                </Grid>
+                                <Label
+                                    Margin="0,5,0,0"
+                                    FontAttributes="Bold"
+                                    FontSize="13"
+                                    HorizontalOptions="Center"
+                                    Text="{Binding user_info.FullName}" />
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
 
-                                    </StackLayout>
-                                </DataTemplate>
-                            </CollectionView.ItemTemplate>
-                        </CollectionView>
-                    </VerticalStackLayout>
-                </HorizontalStackLayout>
+
 
                 <Button
                     Margin="0,10,0,10"
