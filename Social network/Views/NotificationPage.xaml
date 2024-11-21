@@ -1,28 +1,39 @@
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             Shell.NavBarIsVisible="False"
-             x:Class="Social_network.Views.NotificationPage">
+<ContentPage
+    x:Class="Social_network.Views.NotificationPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Shell.NavBarIsVisible="False">
     <ScrollView>
         <VerticalStackLayout Padding="10">
 
-            <!-- Header -->
+            <!--  Header  -->
             <!--
             <Label Text="Thông báo" FontSize="Title" FontAttributes="Bold" HorizontalOptions="Start" />
             -->
-            <!-- Section for New Notifications -->
+            <!--  Section for New Notifications  -->
             <!--
             <Label Text="Mới" FontSize="Subtitle" FontAttributes="Bold" Margin="0,10,0,5" />-->
-            <!-- Post Section -->
-            <StackLayout Spacing="20" >
+            <!--  Post Section  -->
+            <StackLayout Spacing="20">
                 <CollectionView ItemsSource="{Binding NotificationList}">
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
-                            <Frame Padding="10" BorderColor="LightGray" CornerRadius="5" Margin="0,0,0,10">
+                            <Frame
+                                Margin="0,0,0,10"
+                                Padding="10"
+                                BorderColor="LightGray"
+                                CornerRadius="5">
                                 <HorizontalStackLayout>
-                                    <Image Source="{Binding notificationPostResponse.avatar}" WidthRequest="40" HeightRequest="40"/>
+                                    <Image
+                                        HeightRequest="40"
+                                        Source="{Binding notificationPostResponse.avatar}"
+                                        WidthRequest="40" />
                                     <VerticalStackLayout>
-                                        <Label Text="{Binding content}" FontSize="14" />
-                                        <Label Text="{Binding created_date}" FontSize="12" TextColor="Gray"/>
+                                        <Label FontSize="14" Text="{Binding content}" />
+                                        <Label
+                                            FontSize="12"
+                                            Text="{Binding created_date}"
+                                            TextColor="Gray" />
                                     </VerticalStackLayout>
                                 </HorizontalStackLayout>
                             </Frame>

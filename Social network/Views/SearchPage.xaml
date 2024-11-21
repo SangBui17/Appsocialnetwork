@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Social_network.Views.SearchPage"
-             Shell.NavBarIsVisible="False"
-             xmlns:local="clr-namespace:Social_network.ViewModels">
+<ContentPage
+    x:Class="Social_network.Views.SearchPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Social_network.ViewModels"
+    Shell.NavBarIsVisible="False">
     <ContentPage.BindingContext>
         <local:SearchViewModel />
     </ContentPage.BindingContext>
@@ -23,33 +24,33 @@
                 <Entry
                     x:Name="SearchEntry"
                     Margin="10,0"
+                    Completed="OnSearchCompleted"
                     HeightRequest="35"
                     Placeholder="Tìm kiếm"
-                    WidthRequest="250"
-                    Completed="OnSearchCompleted" />
+                    WidthRequest="250" />
             </Frame>
         </HorizontalStackLayout>
 
-        <!-- Hiển thị kết quả -->
-        <CollectionView ItemsSource="{Binding Userinfo}" IsVisible="{Binding IsResultVisible}" Margin="0, 20, 0, 0"
-        SelectionChanged="OnSelectionUserIdChangedd"
-        SelectionMode="Single">
+        <!--  Hiển thị kết quả  -->
+        <CollectionView
+            Margin="10,10,0,0"
+            ItemsSource="{Binding Userinfo}"
+            SelectionChanged="OnSelectionUserIdChangedd"
+            SelectionMode="Single">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <HorizontalStackLayout>
                         <Image
-                         Aspect="AspectFill"
-                         Clip="Circle"
-                         HeightRequest="60"
-                         Source="{Binding avatar_image.linkImage, 
-                         FallbackValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png', 
-                         TargetNullValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png'}"
-                         WidthRequest="60" />
-                                            <Label
-                         Margin="10,0,0,0"
-                         FontAttributes="Bold"
-                         Text="{Binding FullName}"
-                         VerticalOptions="Center" />
+                            Aspect="AspectFill"
+                            Clip="Circle"
+                            HeightRequest="60"
+                            Source="{Binding avatar_image.linkImage, FallbackValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png', TargetNullValue='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/vimeo-512.png'}"
+                            WidthRequest="60" />
+                        <Label
+                            Margin="10,0,0,0"
+                            FontAttributes="Bold"
+                            Text="{Binding FullName}"
+                            VerticalOptions="Center" />
                     </HorizontalStackLayout>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
