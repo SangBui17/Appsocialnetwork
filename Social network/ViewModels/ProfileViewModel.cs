@@ -15,61 +15,44 @@ namespace Social_network.ViewModels
 {
     class ProfileViewModel : INotifyPropertyChanged
     {
+        // Services
         private readonly UserInfoService _userInfoService;
-        private UserInfoResponse _userInfoResponse;
-
         private readonly PostService _postService;
-        private List<PostResponse> _postResponse;
-
         private readonly FriendService _friendService;
+        private readonly LikeService _likeService;
+
+        // Fields
+        private UserInfoResponse _userInfoResponse;
+        private List<PostResponse> _postResponse;
         private List<FriendResponse> _friendResponse;
+        private string _errorMessage;
 
-        private readonly LikeService _serviceLike;
+        // Commands
+        public ICommand CommentTappedCommand { get; }
+        public ICommand SendLikeCommand { get; }
 
-        public ICommand CommentTappedCommand { get; private set; }
-        public ICommand AddPostTappedCommand { get; private set; }
-        public ICommand SendLikeCommand { get; private set; }
-
+        // Constructor
         public ProfileViewModel()
         {
-
             _userInfoService = new UserInfoService();
             _postService = new PostService();
-            _serviceLike = new LikeService();
             _friendService = new FriendService(new HttpClient());
-            CommentTappedCommand = new Command<int>(OnCommentTapped);
-            SendLikeCommand = new Command<int>(SendLikeTapped);
+            _likeService = new LikeService();
 
+            CommentTappedCommand = new Command<int>(OnCommentTapped);
+            SendLikeCommand = new Command<int>(OnSendLikeTapped);
         }
+
+        // Properties
         public UserInfoResponse UserMe
         {
             get => _userInfoResponse;
             set
             {
                 _userInfoResponse = value;
-                OnPropertyChanged(nameof(UserMe)); // Notify the UI of the update
+                OnPropertyChanged(nameof(UserMe));
             }
         }
-        public PageInfo PageInfo { get; }
-        private async void SendLikeTapped(int postId)
-        {
-            // Gọi API like
-            var responseContent = await _serviceLike.like(postId);
-
-            if (responseContent != null) // Nếu API trả về phản hồi hợp lệ
-            {
-                // Gọi lại API để tải danh sách bài đăng mới
-                //await GetPostAsync(PageInfo);
-            }
-        }
-
-        private async void OnCommentTapped(int postId)
-        {
-            // Chuyển đến trang CommentPage và truyền postId
-            await Application.Current.MainPage.Navigation.PushAsync(new CommentPage(postId));
-        }
-
-        // Change the type to List<MessageResponse>
 
         public List<PostResponse> PostList
         {
@@ -77,40 +60,23 @@ namespace Social_network.ViewModels
             set
             {
                 _postResponse = value;
-                OnPropertyChanged(nameof(PostList)); // Notify the UI of the update
+                OnPropertyChanged(nameof(PostList));
             }
         }
+
         public List<FriendResponse> Friends
         {
             get => _friendResponse;
             set
             {
                 _friendResponse = value;
-                OnPropertyChanged(nameof(Friends)); // Notify the UI of the update
+                OnPropertyChanged(nameof(Friends));
+                OnPropertyChanged(nameof(LimitedFriends)); // Update LimitedFriends
             }
         }
 
+        public IEnumerable<FriendResponse> LimitedFriends => Friends?.Take(3) ?? Enumerable.Empty<FriendResponse>();
 
-        public async Task GetMeAsync()
-        {
-            // Fetch the messages from the service
-            var userme = await _userInfoService.GetUserInfo();
-            if (userme != null)
-            {
-                UserMe = userme; // Update the property with the fetched messages
-            }
-        }
-
-        public async Task GetPostAsync(PageInfo pageInfo)
-        {
-            // Fetch the messages from the service
-            var posts = await _postService.getAllPostByMe(pageInfo);
-            if (posts != null)
-            {
-                PostList = posts; // Update the property with the fetched messages
-            }
-        }
-        private string _errorMessage;
         public string ErrorMessage
         {
             get => _errorMessage;
@@ -120,6 +86,30 @@ namespace Social_network.ViewModels
                 OnPropertyChanged(nameof(ErrorMessage));
             }
         }
+
+        // Methods
+
+        // Fetch user info
+        public async Task GetMeAsync()
+        {
+            var userInfo = await _userInfoService.GetUserInfo();
+            if (userInfo != null)
+            {
+                UserMe = userInfo;
+            }
+        }
+
+        // Fetch posts by current user
+        public async Task GetPostAsync(PageInfo pageInfo)
+        {
+            var posts = await _postService.getAllPostByMe(pageInfo);
+            if (posts != null)
+            {
+                PostList = posts;
+            }
+        }
+
+        // Fetch friends of current user
         public async Task GetFriendAsync()
         {
             try
@@ -136,27 +126,31 @@ namespace Social_network.ViewModels
             }
             catch (Exception ex)
             {
-                ErrorMessage = $"Lỗi viewmodel: {ex.Message}";
+                ErrorMessage = $"Lỗi tải bạn bè: {ex.Message}";
             }
         }
+
+        // Fetch user info by ID
         public async Task GetUserByIdAsync(long id)
         {
-            // Fetch the messages from the service
-            var userme = await _userInfoService.GetUserById(id);
-            if (userme != null)
+            var userInfo = await _userInfoService.GetUserById(id);
+            if (userInfo != null)
             {
-                UserMe = userme; // Update the property with the fetched messages
+                UserMe = userInfo;
             }
         }
+
+        // Fetch posts by user ID
         public async Task GetPostIdAsync(PageInfo pageInfo, long id)
         {
-            // Fetch the messages from the service
             var posts = await _postService.getAllPostById(pageInfo, id);
             if (posts != null)
             {
-                PostList = posts; // Update the property with the fetched messages
+                PostList = posts;
             }
         }
+
+        // Fetch friends by user ID
         public async Task GetFriendIDAsync(long id)
         {
             try
@@ -173,44 +167,62 @@ namespace Social_network.ViewModels
             }
             catch (Exception ex)
             {
-                ErrorMessage = $"Lỗi viewmodel: {ex.Message}";
+                ErrorMessage = $"Lỗi tải bạn bè: {ex.Message}";
             }
         }
 
+        // Add friend
         public async Task AddFriendAsync(long id)
         {
             try
             {
-                // Gửi yêu cầu thêm bạn
                 var result = await _friendService.AddFriend(id);
-                if (result)
-                {
-                    ErrorMessage = "Đã gửi lời mời kết bạn thành công.";
-                }
-                else
-                {
-                    ErrorMessage = "Không thể gửi lời mời kết bạn.";
-                }
+                ErrorMessage = result
+                    ? "Đã gửi lời mời kết bạn thành công."
+                    : "Không thể gửi lời mời kết bạn.";
             }
             catch (Exception ex)
             {
-                ErrorMessage = $"Lỗi viewmodel: {ex.Message}";
+                ErrorMessage = $"Lỗi thêm bạn: {ex.Message}";
             }
         }
-        public async Task RemoveFriendAsync(long userTarget)
+
+        // Remove friend
+        public async Task RemoveFriendAsync(long id)
         {
-            // Gửi yêu cầu thêm bạn
-            var result = await _friendService.RemoveFriend(userTarget);
-            if (result)
+            try
             {
-                ErrorMessage = "Huy kết bạn thành công.";
+                var result = await _friendService.RemoveFriend(id);
+                ErrorMessage = result
+                    ? "Hủy kết bạn thành công."
+                    : "Không thể hủy kết bạn.";
             }
-            else
+            catch (Exception ex)
             {
-                ErrorMessage = "Không thể huy kết bạn.";
+                ErrorMessage = $"Lỗi hủy bạn: {ex.Message}";
             }
         }
-        public event PropertyChangedEventHandler? PropertyChanged;
+
+        // Handle like action
+        private async void OnSendLikeTapped(int postId)
+        {
+            var response = await _likeService.like(postId);
+            if (response != null)
+            {
+                ErrorMessage = "Đã thích bài viết.";
+                // Optionally reload posts
+                // await GetPostAsync(PageInfo);
+            }
+        }
+
+        // Handle comment action
+        private async void OnCommentTapped(int postId)
+        {
+            await Application.Current.MainPage.Navigation.PushAsync(new CommentPage(postId));
+        }
+
+        // PropertyChanged Implementation
+        public event PropertyChangedEventHandler PropertyChanged;
 
         protected virtual void OnPropertyChanged(string propertyName)
         {
